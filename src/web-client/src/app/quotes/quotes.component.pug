@@ -1,0 +1,21 @@
+.container: .columns.is-centered: .column
+  span.help.is-info(*ngIf="isLoading") Loading...
+  span.help.is-error(*ngIf="errorMessage") {{ errorMessage }}
+  table.table(*ngIf="!isLoading && !errorMessage", style="margin-left:auto; margin-right: auto;")
+    thead: tr
+      th Quote Requested On
+      th Policy Start Date
+      th Policy End Date
+      th Ages of Insured Clients
+      th Total Cost
+      th Currency
+
+    tbody: tr(*ngFor="let quote of quotes")
+      td {{ quote.created_at.toISOString().slice(0, 10) }}
+      td {{ quote.start_date.toISOString().slice(0, 10) }}
+      td {{ quote.end_date.toISOString().slice(0, 10) }}
+      td {{ quote.ages }}
+      td {{ quote.total }}
+      td {{ quote.currency_id }}
+
+  span(*ngIf="!quotes.length") You have no quotes yet. Try clicking "Request New Quote"

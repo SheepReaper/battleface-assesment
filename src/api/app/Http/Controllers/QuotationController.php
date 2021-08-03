@@ -89,7 +89,7 @@ class QuotationController extends Controller
                 $load = $load_entries[0]->load;
             }
 
-            $total_cost += $fixed_rate * $load * $duration;
+            $total_cost += $fixed_rate * $load * ($duration + 1);
         }
 
         $quote = Quotation::create([
