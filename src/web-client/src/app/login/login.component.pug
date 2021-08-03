@@ -1,0 +1,13 @@
+section.hero.is-primary.is-fullheight: .hero-body: .container
+  .columns.is-centered: .column.is-5-tablet.is-4-desktop.is-3-widescreen: form.box([formGroup]="form")
+    .field
+      label.label(for="emailInput") Email
+      .control: input#emailInput.input(type="email" name="email" formControlName="email", required)
+    .field
+      label.label(for="passwordInput") Password
+      .control: input#passwordInput.input(name="password" formControlName="password" type="password", required)
+    .field: button.button.is-link((click)="login()") Login
+
+  .columns.is-centered: .column.is-5-tablet.is-4-desktop.is-3-widescreen: .card
+      | If you are a Battleface reviewer, then your creds are:
+      p: strong email@email.com:password

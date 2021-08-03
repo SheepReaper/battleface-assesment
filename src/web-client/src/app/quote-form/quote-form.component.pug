@@ -1,0 +1,23 @@
+.columns.is-centered: .column.is-5-tablet.is-4-desktop.is-3-widescreen
+  h1 Quote Form
+  form([formGroup]="myDateForm", (ngSubmit)="submitQuote()")
+    .field(*ngIf="errors.length")
+      label.label Form Errors
+      p.help.is-danger(*ngFor="let error of errors") {{ error }}
+
+    .field
+      label.label Policy Start and End Dates
+      .control: nwb-date-picker(#datePicker)
+        input(type="text" nwbDateType="date" name="start_date" formControlName="start_date", [nwbDatepickerStart]="datePicker")
+        input(type="text" nwbDateType="date" name="end_date" formControlName="end_date", [nwbDatepickerEnd]="datePicker")
+
+    .field
+      label.label Ages of covered clients
+      .control: input.input(type="text" placeholder="Comma-separated list of numbers (first number must be over 18)" name="age" formControlName="age")
+
+    .field
+      label.label Currency
+      .control: .select: select(name="currency_id" formControlName="currency_id")
+        option(*ngFor="let option of currencyList") {{ option }}
+
+    .field: .control: button.button.is-link(type="submit" class="isLoading ? 'is-loading' : ''") Get Quote

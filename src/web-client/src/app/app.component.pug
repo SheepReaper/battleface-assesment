@@ -1,0 +1,15 @@
+div(*ngIf="!onLoginPage" style="text-align: center;")
+  section.section
+    .container
+      nav.navbar(role="navigation" aria-label="main navigation")
+        .navbar-menu.is-active.buttons
+          button.button.is-link(*ngIf="isLoggedIn", [routerLink]="['']") MyQuotes
+          button.button.is-link(*ngIf="isLoggedIn", [routerLink]="['/newQuote']") Request New Quote
+          button.button.is-link(*ngIf="isLoggedOut", (click)="login()") Login
+          button.button.is-link(*ngIf="isLoggedIn", (click)="logout()") Logout
+
+router-outlet
+footer.footer(*ngIf="isLoggedIn"): .content.has-text-centered: p
+  | Currently Logged in as: 
+  strong {{ user?.name ?? '' }}
+  |  ({{user?.email ?? ''}})
