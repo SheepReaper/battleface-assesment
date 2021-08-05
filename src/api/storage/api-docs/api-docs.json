@@ -4,14 +4,8 @@
         "title": "Battleface Assessment API",
         "version": "1.0.0"
     },
-    "servers": [
-        {
-            "url": "http://127.0.0.1:8000/api/",
-            "description": "Local server"
-        }
-    ],
     "paths": {
-        "/auth/login": {
+        "/api/auth/login": {
             "post": {
                 "summary": "attempts to log in and get token",
                 "description": "Login by email and password",
@@ -47,20 +41,7 @@
                         "content": {
                             "application/json": {
                                 "schema": {
-                                    "properties": {
-                                        "access_token": {
-                                            "type": "string"
-                                        },
-                                        "token_type": {
-                                            "type": "string",
-                                            "example": "bearer"
-                                        },
-                                        "expires_in": {
-                                            "type": "number"
-                                        },
-                                        "user": {}
-                                    },
-                                    "type": "object"
+                                    "$ref": "#/components/schemas/TokenResponse"
                                 }
                             }
                         }
@@ -103,7 +84,7 @@
                 }
             }
         },
-        "/auth/register": {
+        "/api/auth/register": {
             "post": {
                 "summary": "attempts to log in and get token",
                 "description": "Login by email and password",
@@ -114,10 +95,15 @@
                         "application/json": {
                             "schema": {
                                 "required": [
+                                    "name",
                                     "email",
                                     "password"
                                 ],
                                 "properties": {
+                                    "name": {
+                                        "type": "string",
+                                        "example": "John Doe"
+                                    },
                                     "email": {
                                         "type": "string",
                                         "format": "email",
@@ -134,38 +120,17 @@
                     }
                 },
                 "responses": {
-                    "200": {
+                    "201": {
                         "description": "successful operation",
                         "content": {
                             "application/json": {
                                 "schema": {
                                     "properties": {
-                                        "access_token": {
+                                        "message": {
                                             "type": "string"
                                         },
-                                        "token_type": {
-                                            "type": "string",
-                                            "example": "bearer"
-                                        },
-                                        "expires_in": {
-                                            "type": "number"
-                                        },
-                                        "user": {}
-                                    },
-                                    "type": "object"
-                                }
-                            }
-                        }
-                    },
-                    "401": {
-                        "description": "Unauthorized",
-                        "content": {
-                            "application/json": {
-                                "schema": {
-                                    "properties": {
-                                        "error": {
-                                            "type": "string",
-                                            "example": "Unauthorized"
+                                        "user": {
+                                            "$ref": "#/components/schemas/User"
                                         }
                                     },
                                     "type": "object"
@@ -179,6 +144,10 @@
                             "application/json": {
                                 "schema": {
                                     "properties": {
+                                        "name": {
+                                            "type": "string",
+                                            "example": "The name must be longer than 2."
+                                        },
                                         "email": {
                                             "type": "string",
                                             "example": "The email must be a valid email address."
@@ -195,7 +164,102 @@
                 }
             }
         },
-        "/quotation": {
+        "/api/auth/logout": {
+            "post": {
+                "summary": "logout",
+                "description": "logout the current user",
+                "operationId": "postLogout",
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "properties": {
+                                        "message": {
+                                            "type": "string",
+                                            "example": "User logged out."
+                                        }
+                                    },
+                                    "type": "object"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/api/auth/refresh": {
+            "post": {
+                "summary": "refresh a token",
+                "description": "refresh the user's current token",
+                "operationId": "postRefresh",
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/TokenResponse"
+                                }
+                            }
+                        }
+                    },
+                    "401": {
+                        "description": "unauthorized",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "properties": {
+                                        "message": {
+                                            "type": "string",
+                                            "example": "Unauthenticated."
+                                        }
+                                    },
+                                    "type": "object"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/api/auth/user-profile": {
+            "get": {
+                "summary": "return the logged-in user",
+                "description": "get the current user object",
+                "operationId": "getUserProfile",
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/User"
+                                }
+                            }
+                        }
+                    },
+                    "401": {
+                        "description": "unauthorized",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "properties": {
+                                        "message": {
+                                            "type": "string",
+                                            "example": "Unauthenticated."
+                                        }
+                                    },
+                                    "type": "object"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/api/quotation": {
             "get": {
                 "summary": "Returns all quotations in DB",
                 "description": "Returns all quotations in DB",
@@ -206,9 +270,9 @@
                         "content": {
                             "application/json": {
                                 "schema": {
-                                    "additionalProperties": {
-                                        "type": "integer",
-                                        "format": "int32"
+                                    "type": "array",
+                                    "items": {
+                                        "$ref": "#/components/schemas/Quote"
                                     }
                                 }
                             }
@@ -224,17 +288,72 @@
             "post": {
                 "summary": "Creates a new Quote",
                 "description": "Creates and returns a new quote",
-                "operationId": "getQuotes",
+                "operationId": "postQuotes",
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "age",
+                                    "currency_id",
+                                    "start_date",
+                                    "end_date"
+                                ],
+                                "properties": {
+                                    "age": {
+                                        "type": "number"
+                                    },
+                                    "currency_id": {
+                                        "type": "number"
+                                    },
+                                    "start_date": {
+                                        "type": "date"
+                                    },
+                                    "end_date": {
+                                        "type": "date"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
                 "responses": {
-                    "200": {
+                    "422": {
+                        "description": "Input validation failed.",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "properties": {
+                                        "age": {
+                                            "type": "string",
+                                            "example": "First age must be 18 or older"
+                                        },
+                                        "currency_id": {
+                                            "type": "string",
+                                            "example": "Currency code must be supported"
+                                        },
+                                        "start_date": {
+                                            "type": "string",
+                                            "example": "Date cannot be before today"
+                                        },
+                                        "end_date": {
+                                            "type": "string",
+                                            "example": "Trip must be at least 1 day long"
+                                        }
+                                    },
+                                    "type": "object"
+                                }
+                            }
+                        }
+                    },
+                    "201": {
                         "description": "successful operation",
                         "content": {
                             "application/json": {
                                 "schema": {
-                                    "additionalProperties": {
-                                        "type": "integer",
-                                        "format": "int32"
-                                    }
+                                    "$ref": "#/components/schemas/QuoteRequestResponse"
                                 }
                             }
                         }
@@ -272,6 +391,64 @@
                     }
                 },
                 "type": "object"
+            },
+            "TokenResponse": {
+                "properties": {
+                    "access_token": {
+                        "type": "string"
+                    },
+                    "token_type": {
+                        "type": "string",
+                        "example": "bearer"
+                    },
+                    "expires_in": {
+                        "type": "number"
+                    },
+                    "user": {
+                        "$ref": "#/components/schemas/User"
+                    }
+                },
+                "type": "object"
+            },
+            "Quote": {
+                "properties": {
+                    "created_at": {
+                        "type": "date"
+                    },
+                    "start_date": {
+                        "type": "date"
+                    },
+                    "end_date": {
+                        "type": "date"
+                    },
+                    "ages": {
+                        "type": "string"
+                    },
+                    "total": {
+                        "type": "number"
+                    },
+                    "currency_id": {
+                        "type": "number"
+                    },
+                    "quotation_id": {
+                        "type": "number"
+                    }
+                },
+                "type": "object"
+            },
+            "QuoteRequestResponse": {
+                "properties": {
+                    "total": {
+                        "type": "number"
+                    },
+                    "currency_id": {
+                        "type": "number"
+                    },
+                    "quotation_id": {
+                        "type": "number"
+                    }
+                },
+                "type": "object"
             }
         },
         "securitySchemes": {
@@ -282,10 +459,6 @@
                 "in": "header"
             }
         }
-    },
-    "externalDocs": {
-        "description": "Find out more about Swagger",
-        "url": "http://swagger.io"
     },
     "security": [
         []

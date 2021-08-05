@@ -21,7 +21,7 @@ class AuthController extends Controller
 
     /**
      * @OA\Post(
-     *     path="/auth/login",
+     *     path="/api/auth/login",
      *     summary="attempts to log in and get token",
      *     description="Login by email and password",
      *     operationId="postLogin",
@@ -35,23 +35,15 @@ class AuthController extends Controller
      *     ),
      *     @OA\Response(
      *         response=200,
-     *          description="successful operation",
-     *          @OA\JsonContent(
-     *              @OA\Property(property="access_token", type="string"),
-     *              @OA\Property(property="token_type", type="string", example="bearer"),
-     *              @OA\Property(property="expires_in", type="number"),
-     *              @OA\Property(
-     *                  property="user",
-     *                  @OA\Schema(ref="#/components/schemas/User")
-     *              )
-     *          )
+     *         description="successful operation",
+     *         @OA\JsonContent(ref="#/components/schemas/TokenResponse")
      *     ),
      *     @OA\Response(
      *         response=401,
-     *          description="Unauthorized",
-     *          @OA\JsonContent(
-     *              @OA\Property(property="error", type="string", example="Unauthorized"),
-     *          )
+     *         description="Unauthorized",
+     *         @OA\JsonContent(
+     *             @OA\Property(property="error", type="string", example="Unauthorized"),
+     *         )
      *     ),
      *     @OA\Response(
      *         response=422,
@@ -88,42 +80,35 @@ class AuthController extends Controller
 
     /**
      * @OA\Post(
-     *     path="/auth/register",
+     *     path="/api/auth/register",
      *     summary="attempts to log in and get token",
      *     description="Login by email and password",
      *     operationId="postLogin",
      *     @OA\RequestBody(
      *         required=true,
      *         @OA\JsonContent(
-     *              required={"email", "password"},
+     *              required={"name", "email", "password"},
+     *              @OA\Property(property="name", type="string", example="John Doe"),
      *              @OA\Property(property="email", type="string", format="email", example="user@email.com"),
      *              @OA\Property(property="password", type="string", format="password"),
      *         )
      *     ),
      *     @OA\Response(
-     *         response=200,
+     *         response=201,
      *          description="successful operation",
      *          @OA\JsonContent(
-     *              @OA\Property(property="access_token", type="string"),
-     *              @OA\Property(property="token_type", type="string", example="bearer"),
-     *              @OA\Property(property="expires_in", type="number"),
+     *              @OA\Property(property="message", type="string"),
      *              @OA\Property(
      *                  property="user",
-     *                  @OA\Schema(ref="#/components/schemas/User")
+     *                  ref="#/components/schemas/User"
      *              )
-     *          )
-     *     ),
-     *     @OA\Response(
-     *         response=401,
-     *          description="Unauthorized",
-     *          @OA\JsonContent(
-     *              @OA\Property(property="error", type="string", example="Unauthorized"),
      *          )
      *     ),
      *     @OA\Response(
      *         response=422,
      *          description="Input validation failed.",
      *          @OA\JsonContent(
+     *              @OA\Property(property="name", type="string", example="The name must be longer than 2."),
      *              @OA\Property(property="email", type="string", example="The email must be a valid email address."),
      *              @OA\Property(property="password", type="Password not long enough."),
      *          )
@@ -144,7 +129,7 @@ class AuthController extends Controller
         ]);
 
         if ($validator->fails()) {
-            return response()->json($validator->errors()->toJson(), 400);
+            return response()->json($validator->errors()->toJson(), 422);
         }
 
         $user = User::create(array_merge(
@@ -158,7 +143,21 @@ class AuthController extends Controller
         ], 201);
     }
 
-
+    /**
+     * @OA\Post(
+     *     path="/api/auth/logout",
+     *     summary="logout",
+     *     description="logout the current user",
+     *     operationId="postLogout",
+     *     @OA\Response(
+     *         response=200,
+     *          description="successful operation",
+     *          @OA\JsonContent(
+     *              @OA\Property(property="message", type="string", example="User logged out."),
+     *          )
+     *     ),
+     * )
+     */
     /**
      * Log the user out (Invalidate the token).
      *
@@ -172,6 +171,26 @@ class AuthController extends Controller
     }
 
     /**
+     * @OA\Post(
+     *     path="/api/auth/refresh",
+     *     summary="refresh a token",
+     *     description="refresh the user's current token",
+     *     operationId="postRefresh",
+     *     @OA\Response(
+     *         response=200,
+     *         description="successful operation",
+     *         @OA\JsonContent(ref="#/components/schemas/TokenResponse")
+     *     ),
+     *     @OA\Response(
+     *         response=401,
+     *          description="unauthorized",
+     *          @OA\JsonContent(
+     *              @OA\Property(property="message", type="string", example="Unauthenticated."),
+     *          )
+     *     ),
+     * )
+     */
+    /**
      * Refresh a token.
      *
      * @return \Illuminate\Http\JsonResponse
@@ -181,6 +200,26 @@ class AuthController extends Controller
         return $this->createNewToken(auth()->refresh());
     }
 
+    /**
+     * @OA\Get(
+     *     path="/api/auth/user-profile",
+     *     summary="return the logged-in user",
+     *     description="get the current user object",
+     *     operationId="getUserProfile",
+     *     @OA\Response(
+     *         response=200,
+     *         description="successful operation",
+     *         @OA\JsonContent(ref="#/components/schemas/User")
+     *     ),
+     *     @OA\Response(
+     *         response=401,
+     *         description="unauthorized",
+     *         @OA\JsonContent(
+     *             @OA\Property(property="message", type="string", example="Unauthenticated."),
+     *         )
+     *     ),
+     * )
+     */
     /**
      * Get the authenticated User.
      *

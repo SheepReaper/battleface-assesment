@@ -13,17 +13,6 @@ use Illuminate\Routing\Controller as BaseController;
  *     version="1.0.0",
  * )
  */
-
-/**
- * @OA\Server(
- *     description="Local server",
- *     url="http://127.0.0.1:8000/api/"
- * )
- * @OA\ExternalDocumentation(
- *     description="Find out more about Swagger",
- *     url="http://swagger.io"
- * )
- */
 /**
  * @OA\Schema(
  *     schema="User",
@@ -33,6 +22,38 @@ use Illuminate\Routing\Controller as BaseController;
  *     @OA\Property(property="email_verified_at", type="date"),
  *     @OA\Property(property="created_at", type="date"),
  *     @OA\Property(property="updated_at", type="date"),
+ * )
+ */
+/**
+ * @OA\Schema(
+ *     schema="TokenResponse",
+ *     @OA\Property(property="access_token", type="string"),
+ *     @OA\Property(property="token_type", type="string", example="bearer"),
+ *     @OA\Property(property="expires_in", type="number"),
+ *     @OA\Property(
+ *         property="user",
+ *         ref="#/components/schemas/User",
+ *     )
+ * )
+ */
+/**
+ * @OA\Schema(
+ *     schema="Quote",
+ *     @OA\Property(property="created_at", type="date"),
+ *     @OA\Property(property="start_date", type="date"),
+ *     @OA\Property(property="end_date", type="date"),
+ *     @OA\Property(property="ages", type="string"),
+ *     @OA\Property(property="total", type="number"),
+ *     @OA\Property(property="currency_id", type="number"),
+ *     @OA\Property(property="quotation_id", type="number"),
+ * )
+ */
+/**
+ * @OA\Schema(
+ *     schema="QuoteRequestResponse",
+ *     @OA\Property(property="total", type="number"),
+ *     @OA\Property(property="currency_id", type="number"),
+ *     @OA\Property(property="quotation_id", type="number"),
  * )
  */
 class Controller extends BaseController

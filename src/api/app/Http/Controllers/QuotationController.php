@@ -14,19 +14,19 @@ class QuotationController extends Controller
 {
     /**
      * @OA\Get(
-     *     path="/quotation",
+     *     path="/api/quotation",
      *     summary="Returns all quotations in DB",
      *     description="Returns all quotations in DB",
      *     operationId="getQuotes",
      *     @OA\Response(
      *         response=200,
-     *          description="successful operation",
-     *          @OA\JsonContent(
-     *              @OA\AdditionalProperties(
-     *                  type="integer",
-     *                  format="int32"
-     *              )
-     *          )
+     *         description="successful operation",
+     *         @OA\JsonContent(
+     *             type="array",
+     *             @OA\Items(
+     *                 ref="#/components/schemas/Quote"
+     *             )
+     *         )
      *     ),
      *     security={{"bearer_token":{}}}
      * )
@@ -38,19 +38,36 @@ class QuotationController extends Controller
 
     /**
      * @OA\Post(
-     *     path="/quotation",
+     *     path="/api/quotation",
      *     summary="Creates a new Quote",
      *     description="Creates and returns a new quote",
-     *     operationId="getQuotes",
+     *     operationId="postQuotes",
+     *     @OA\RequestBody(
+     *         required=true,
+     *         @OA\JsonContent(
+     *              required={"age", "currency_id", "start_date", "end_date"},
+     *              @OA\Property(property="age", type="number"),
+     *              @OA\Property(property="currency_id", type="number"),
+     *              @OA\Property(property="start_date", type="date"),
+     *              @OA\Property(property="end_date", type="date"),
+     *         )
+     *     ),
      *     @OA\Response(
-     *         response=200,
-     *          description="successful operation",
+     *         response=422,
+     *          description="Input validation failed.",
      *          @OA\JsonContent(
-     *              @OA\AdditionalProperties(
-     *                  type="integer",
-     *                  format="int32"
-     *              )
+     *              @OA\Property(property="age", type="string", example="First age must be 18 or older"),
+     *              @OA\Property(property="currency_id", type="string", example="Currency code must be supported"),
+     *              @OA\Property(property="start_date", type="string", example="Date cannot be before today"),
+     *              @OA\Property(property="end_date", type="string", example="Trip must be at least 1 day long"),
      *          )
+     *     ),
+     *     @OA\Response(
+     *         response=201,
+     *         description="successful operation",
+     *         @OA\JsonContent(
+     *             ref="#/components/schemas/QuoteRequestResponse"
+     *         )
      *     ),
      *     security={{"bearer_token":{}}}
      * )
