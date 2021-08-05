@@ -14,6 +14,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NwbDatePickerModule } from '@wizishop/ng-wizi-bulma';
 import { AuthInterceptor } from './http-interceptors/auth';
 import { AccessGuard } from './access.guard';
+import { ExternalPageComponent } from './external-page/external-page.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { AccessGuard } from './access.guard';
     QuotesComponent,
     LoginComponent,
     QuoteFormComponent,
+    ExternalPageComponent,
   ],
   imports: [
     BrowserModule,

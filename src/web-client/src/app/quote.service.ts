@@ -2,8 +2,9 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { Quote, QuotePostResponse, QuoteRequest } from 'src/types';
+import { environment } from '../environments/environment';
 
-const ENDPOINT = 'http://127.0.0.1:8000/api/quotation';
+const ENDPOINT = `${environment.apiUrl}/quotation`;
 
 @Injectable({
   providedIn: 'root',

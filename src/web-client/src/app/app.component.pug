@@ -1,15 +1,14 @@
-div(*ngIf="!onLoginPage" style="text-align: center;")
-  section.section
-    .container
-      nav.navbar(role="navigation" aria-label="main navigation")
-        .navbar-menu.is-active.buttons
-          button.button.is-link(*ngIf="isLoggedIn", [routerLink]="['']") MyQuotes
-          button.button.is-link(*ngIf="isLoggedIn", [routerLink]="['/newQuote']") Request New Quote
-          button.button.is-link(*ngIf="isLoggedOut", (click)="login()") Login
-          button.button.is-link(*ngIf="isLoggedIn", (click)="logout()") Logout
+nav.navbar.has-shadow.has-text-centered.mb-4(*ngIf="!onLoginPage" role="navigation" aria-label="main navigation")
+  .navbar-menu.is-active.buttons: .navbar-start: .navbar-item: .buttons
+    a.button.is-dark(*ngIf="isLoggedIn", [routerLink]="['']") MyQuotes
+    a.button.is-dark(*ngIf="isLoggedIn", [routerLink]="['/newQuote']") Request New Quote
+    a.button.is-dark(*ngIf="isLoggedIn", [routerLink]="['/docs']") API docs
+    a.button.is-dark(*ngIf="isLoggedOut", (click)="login()") Login
+    a.button.is-dark(*ngIf="isLoggedIn", (click)="logout()") Logout
 
 router-outlet
-footer.footer(*ngIf="isLoggedIn"): .content.has-text-centered: p
+
+nav.navbar.is-fixed-bottom: footer.footer.mx-auto(*ngIf="isLoggedIn" style="width: 100%;"): .content.has-text-centered: p
   | Currently Logged in as: 
   strong {{ user?.name ?? '' }}
   |  ({{user?.email ?? ''}})

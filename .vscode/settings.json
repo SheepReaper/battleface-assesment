@@ -1,8 +1,7 @@
 {
-    "phpformatter.composer": true,
-    "phpformatter.arguments": [
-        "--level=psr2",
-        "--fixers=linefeed,short_tag,indentation"
-    ],
-    "compile-hero.disable-compile-files-on-did-save-code": false
+  "phpformatter.composer": true,
+  "phpformatter.arguments": [
+    "--level=psr2",
+    "--fixers=linefeed,short_tag,indentation"
+  ]
 }

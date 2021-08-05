@@ -3,8 +3,9 @@ import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { shareReplay, tap } from 'rxjs/operators';
 import { LoginResponse, User } from 'src/types';
+import { environment } from '../environments/environment';
 
-const ENDPOINT = 'http://127.0.0.1:8000/api/auth';
+const ENDPOINT = `${environment.apiUrl}/auth`;
 
 @Injectable({
   providedIn: 'root',

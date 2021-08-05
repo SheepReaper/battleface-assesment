@@ -14,7 +14,6 @@ export class AppComponent {
 
   login() {
     this.authService.redirectUrl = this.router.url.replace('/login', '');
-    console.log(this.router.url);
     this.router.navigate(['/login']);
   }
 

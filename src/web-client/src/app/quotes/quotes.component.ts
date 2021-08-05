@@ -13,8 +13,6 @@ export class QuotesComponent implements OnInit {
 
   isLoading: boolean = true;
 
-  onQuoteRequested = () => console.log('Quote requested');
-
   constructor(private quoteService: QuoteService) {}
 
   ngOnInit(): void {

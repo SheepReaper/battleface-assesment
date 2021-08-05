@@ -35,13 +35,8 @@ export class QuoteFormComponent implements OnInit {
 
   ngOnInit(): void {}
 
-  onTimeChanged(...rest: any) {
-    console.log(...rest);
-  }
-
   submitQuote() {
     this.isLoading = true;
-    console.log(this.myDateForm.value);
     const value: QuoteRequest = this.myDateForm.value;
     this.quoteService
       // .postQuote({ age: "18,20", currency_id: "USD", end_date: new Date(2121, 12, 1).toISOString().slice(0, 10), start_date: new Date(2121, 11, 1).toISOString().slice(0, 10) })

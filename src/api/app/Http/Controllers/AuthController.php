@@ -23,25 +23,44 @@ class AuthController extends Controller
      * @OA\Post(
      *     path="/auth/login",
      *     summary="attempts to log in and get token",
-     *     description="try to log in",
+     *     description="Login by email and password",
      *     operationId="postLogin",
      *     @OA\RequestBody(
-     *         request="body",
      *         required=true,
      *         @OA\JsonContent(
-     *             type="string"
+     *              required={"email", "password"},
+     *              @OA\Property(property="email", type="string", format="email", example="user@email.com"),
+     *              @OA\Property(property="password", type="string", format="password"),
      *         )
      *     ),
      *     @OA\Response(
      *         response=200,
      *          description="successful operation",
      *          @OA\JsonContent(
-     *              @OA\AdditionalProperties(
-     *                  type="integer",
-     *                  format="int32"
+     *              @OA\Property(property="access_token", type="string"),
+     *              @OA\Property(property="token_type", type="string", example="bearer"),
+     *              @OA\Property(property="expires_in", type="number"),
+     *              @OA\Property(
+     *                  property="user",
+     *                  @OA\Schema(ref="#/components/schemas/User")
      *              )
      *          )
-     *     )
+     *     ),
+     *     @OA\Response(
+     *         response=401,
+     *          description="Unauthorized",
+     *          @OA\JsonContent(
+     *              @OA\Property(property="error", type="string", example="Unauthorized"),
+     *          )
+     *     ),
+     *     @OA\Response(
+     *         response=422,
+     *          description="Input validation failed.",
+     *          @OA\JsonContent(
+     *              @OA\Property(property="email", type="string", example="The email must be a valid email address."),
+     *              @OA\Property(property="password", type="Password not long enough."),
+     *          )
+     *     ),
      * )
      */
     /**
@@ -67,6 +86,50 @@ class AuthController extends Controller
         return $this->createNewToken($token);
     }
 
+    /**
+     * @OA\Post(
+     *     path="/auth/register",
+     *     summary="attempts to log in and get token",
+     *     description="Login by email and password",
+     *     operationId="postLogin",
+     *     @OA\RequestBody(
+     *         required=true,
+     *         @OA\JsonContent(
+     *              required={"email", "password"},
+     *              @OA\Property(property="email", type="string", format="email", example="user@email.com"),
+     *              @OA\Property(property="password", type="string", format="password"),
+     *         )
+     *     ),
+     *     @OA\Response(
+     *         response=200,
+     *          description="successful operation",
+     *          @OA\JsonContent(
+     *              @OA\Property(property="access_token", type="string"),
+     *              @OA\Property(property="token_type", type="string", example="bearer"),
+     *              @OA\Property(property="expires_in", type="number"),
+     *              @OA\Property(
+     *                  property="user",
+     *                  @OA\Schema(ref="#/components/schemas/User")
+     *              )
+     *          )
+     *     ),
+     *     @OA\Response(
+     *         response=401,
+     *          description="Unauthorized",
+     *          @OA\JsonContent(
+     *              @OA\Property(property="error", type="string", example="Unauthorized"),
+     *          )
+     *     ),
+     *     @OA\Response(
+     *         response=422,
+     *          description="Input validation failed.",
+     *          @OA\JsonContent(
+     *              @OA\Property(property="email", type="string", example="The email must be a valid email address."),
+     *              @OA\Property(property="password", type="Password not long enough."),
+     *          )
+     *     ),
+     * )
+     */
     /**
      * Register a User.
      *

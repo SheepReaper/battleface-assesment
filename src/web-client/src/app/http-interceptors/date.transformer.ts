@@ -49,7 +49,6 @@ export class DateTransformer implements HttpInterceptor {
     httpRequest: HttpRequest<any>,
     next: HttpHandler
   ): Observable<HttpEvent<any>> {
-    console.log(['checking', httpRequest.method]);
     return next.handle(httpRequest).pipe(
       map((val) => {
         if (val instanceof HttpResponse) {
