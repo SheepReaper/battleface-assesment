@@ -1,10 +1,8 @@
-# Unfinished work
-
-Ran out of time trying to get swagger-ui:
-
-1. Fully annotating the api for full swagger functionality
+# Notes
 
 Per the Requirement/Challenge doc. They wanted the response to the POST /quotation to be a certain schema. I assure you, It's fully compliant (check in dev-tools) but the app is set up to redirect back to the list of Quotes after creating a new one so you never get to see it.
+
+# Afterthoughts
 
 Upon request, I can re-do this project in my preferred frameworks:
 
