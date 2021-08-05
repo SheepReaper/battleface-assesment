@@ -24,7 +24,7 @@ Next, you need to have the php project dependencies installed (composer)
 From `src/api`:
 
 ```shell
-php composer.phar update
+composer update
 ```
 
 Finally, you need to install npm dependencies (assuming you have angular cli installed globally)
