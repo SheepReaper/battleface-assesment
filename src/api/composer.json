@@ -11,7 +11,7 @@
         "php": "^7.3|^8.0",
         "darkaonline/l5-swagger": "8.0.7",
         "fideloper/proxy": "4.4.1",
-        "friendsofphp/php-cs-fixer": "3.0.0",
+        "friendsofphp/php-cs-fixer": "3.0.2",
         "fruitcake/laravel-cors": "2.0.4",
         "guzzlehttp/guzzle": "7.3.0",
         "laravel/framework": "8.52.0",
