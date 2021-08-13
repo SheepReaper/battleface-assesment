@@ -1,5 +1,23 @@
 {
   "extends": [
-    "config:base"
-  ]
+    "config:base",
+    ":preserveSemverRanges",
+    "group:all",
+    "schedule:monthly",
+    ":automergeLinters",
+    ":automergeTesters",
+    ":automergeTypes",
+    ":gitSignOff",
+    ":enableVulnerabilityAlertsWithLabel(vulnerability)",
+    ":assignAndReview(SheepReaper)",
+    ":dependencyDashboard",
+    ":semanticCommits"
+  ],
+  "separateMajorMinor": false,
+  "lockFileMaintenance": {
+    "extends": [
+      "group:all"
+    ],
+    "commitMessageAction": "Update"
+  }
 }
