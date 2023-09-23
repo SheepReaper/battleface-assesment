@@ -1,23 +1,9 @@
 {
-  "extends": [
-    "config:base",
-    ":preserveSemverRanges",
-    "group:all",
-    "schedule:monthly",
-    ":automergeLinters",
-    ":automergeTesters",
-    ":automergeTypes",
-    ":gitSignOff",
-    ":enableVulnerabilityAlertsWithLabel(vulnerability)",
-    ":assignAndReview(SheepReaper)",
-    ":dependencyDashboard",
-    ":semanticCommits"
-  ],
-  "separateMajorMinor": false,
-  "lockFileMaintenance": {
-    "extends": [
-      "group:all"
-    ],
-    "commitMessageAction": "Update"
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [ "config:best-practices" ],
+  "vulnerabilityAlerts": {
+    "labels": [ "security" ],
+    "automerge": true,
+    "assignees": [ "@SheepReaper" ]
   }
 }
