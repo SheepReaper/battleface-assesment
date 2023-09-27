@@ -1,6 +1,6 @@
 import { HttpErrorResponse } from '@angular/common/http';
 import { Component, EventEmitter, OnInit, Output } from '@angular/core';
-import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { UntypedFormBuilder, UntypedFormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import { QuoteRequest, Currency } from 'src/types';
 import { QuoteService } from '../quote.service';
@@ -13,13 +13,13 @@ import { QuoteService } from '../quote.service';
 export class QuoteFormComponent implements OnInit {
   errors: [string, unknown][] = [];
   isLoading = false;
-  myDateForm: FormGroup;
+  myDateForm: UntypedFormGroup;
 
   currencyList: Currency[] = ['USD', 'EUR', 'GBP'];
 
   constructor(
     private quoteService: QuoteService,
-    private fb: FormBuilder,
+    private fb: UntypedFormBuilder,
     private router: Router
   ) {
     this.myDateForm = this.fb.group({
