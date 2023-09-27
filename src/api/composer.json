@@ -10,20 +10,18 @@
     "require": {
         "php": "^7.3|^8.0",
         "darkaonline/l5-swagger": "8.0.7",
+        "doctrine/dbal": "^3.7",
         "fideloper/proxy": "4.4.2",
-        "friendsofphp/php-cs-fixer": "3.0.2",
-        "fruitcake/laravel-cors": "2.0.4",
-        "guzzlehttp/guzzle": "7.3.0",
-        "laravel/framework": "8.54.0",
-        "laravel/tinker": "2.6.1",
-        "tymon/jwt-auth": "1.0.2"
+        "laravel/framework": "^9.0",
+        "laravel/passport": "^11.8",
+        "laravel/sanctum": "^3.3"
     },
     "require-dev": {
-        "facade/ignition": "2.11.2",
+        "spatie/laravel-ignition": "^1.0",
         "fakerphp/faker": "1.15.0",
         "laravel/sail": "1.9.0",
         "mockery/mockery": "1.4.3",
-        "nunomaduro/collision": "5.6.0",
+        "nunomaduro/collision": "^6.1",
         "phpunit/phpunit": "9.5.8"
     },
     "autoload": {
@@ -60,6 +58,6 @@
         "preferred-install": "dist",
         "sort-packages": true
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true
 }
