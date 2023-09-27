@@ -55,7 +55,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["rxjs", "npm:7.8.1"],\
             ["tslib", "npm:2.6.2"],\
             ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=289587"],\
-            ["zone.js", "npm:0.13.3"]\
+            ["zone.js", "npm:0.14.0"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -480,7 +480,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/zone.js", null],\
             ["rxjs", "npm:7.8.1"],\
             ["tslib", "npm:2.6.2"],\
-            ["zone.js", "npm:0.13.3"]\
+            ["zone.js", "npm:0.14.0"]\
           ],\
           "packagePeers": [\
             "@types/rxjs",\
@@ -11658,7 +11658,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["rxjs", "npm:7.8.1"],\
             ["tslib", "npm:2.6.2"],\
             ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=289587"],\
-            ["zone.js", "npm:0.13.3"]\
+            ["zone.js", "npm:0.14.0"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -12194,10 +12194,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["zone.js", [\
-        ["npm:0.13.3", {\
-          "packageLocation": "./.yarn/cache/zone.js-npm-0.13.3-0a6320caca-73888a51b0.zip/node_modules/zone.js/",\
+        ["npm:0.14.0", {\
+          "packageLocation": "./.yarn/cache/zone.js-npm-0.14.0-b692bd6ba5-8a1c055ff1.zip/node_modules/zone.js/",\
           "packageDependencies": [\
-            ["zone.js", "npm:0.13.3"],\
+            ["zone.js", "npm:0.14.0"],\
             ["tslib", "npm:2.6.2"]\
           ],\
           "linkType": "HARD"\
