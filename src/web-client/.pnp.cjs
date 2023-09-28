@@ -54,7 +54,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["pug-loader", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:2.4.0"],\
             ["rxjs", "npm:7.8.1"],\
             ["tslib", "npm:2.6.2"],\
-            ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=289587"],\
+            ["typescript", "patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"],\
             ["zone.js", "npm:0.14.0"]\
           ],\
           "linkType": "SOFT"\
@@ -174,7 +174,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["text-table", "npm:0.2.0"],\
             ["tree-kill", "npm:1.2.2"],\
             ["tslib", "npm:2.6.1"],\
-            ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=289587"],\
+            ["typescript", "patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"],\
             ["vite", "virtual:9baadfd855e1ee45f1e3322a0d466d4142baa52065076a88f33592e22b878cb9c7f4c304c93187c9c20f825bb7186d0d7cefae865eeaaff75f4fd16f8f5f5c2e#npm:4.4.7"],\
             ["webpack", "virtual:9baadfd855e1ee45f1e3322a0d466d4142baa52065076a88f33592e22b878cb9c7f4c304c93187c9c20f825bb7186d0d7cefae865eeaaff75f4fd16f8f5f5c2e#npm:5.88.2"],\
             ["webpack-dev-middleware", "virtual:9baadfd855e1ee45f1e3322a0d466d4142baa52065076a88f33592e22b878cb9c7f4c304c93187c9c20f825bb7186d0d7cefae865eeaaff75f4fd16f8f5f5c2e#npm:6.1.1"],\
@@ -452,7 +452,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["reflect-metadata", "npm:0.1.13"],\
             ["semver", "npm:7.5.4"],\
             ["tslib", "npm:2.6.2"],\
-            ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=289587"],\
+            ["typescript", "patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"],\
             ["yargs", "npm:17.7.2"]\
           ],\
           "packagePeers": [\
@@ -3581,7 +3581,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/angular__compiler-cli", null],\
             ["@types/typescript", null],\
             ["@types/webpack", null],\
-            ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=289587"],\
+            ["typescript", "patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"],\
             ["webpack", "virtual:9baadfd855e1ee45f1e3322a0d466d4142baa52065076a88f33592e22b878cb9c7f4c304c93187c9c20f825bb7186d0d7cefae865eeaaff75f4fd16f8f5f5c2e#npm:5.88.2"]\
           ],\
           "packagePeers": [\
@@ -4275,7 +4275,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jsdom", "virtual:7f9d47a6265a7b3f219a96879a7b513e01ed88eff1f80fe9e92f42e89cf9b914b61607e7dcd0dfcff5040a3531265eeb68329c4d3c95b7c3b0f776724fb2d19b#npm:16.7.0"],\
             ["object-path", "npm:0.11.8"],\
             ["tslib", "npm:2.6.2"],\
-            ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=289587"]\
+            ["typescript", "patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"]\
           ],\
           "packagePeers": [\
             "@types/typescript",\
@@ -4311,7 +4311,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["bulma-extensions", "npm:6.2.7"],\
             ["rxjs", "npm:7.8.1"],\
             ["tslib", "npm:2.6.2"],\
-            ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=289587"]\
+            ["typescript", "patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"]\
           ],\
           "packagePeers": [\
             "@angular/animations",\
@@ -6990,7 +6990,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["guess-parser", "virtual:9baadfd855e1ee45f1e3322a0d466d4142baa52065076a88f33592e22b878cb9c7f4c304c93187c9c20f825bb7186d0d7cefae865eeaaff75f4fd16f8f5f5c2e#npm:0.4.22"],\
             ["@types/typescript", null],\
             ["@wessberg/ts-evaluator", "virtual:213f9a1d7318eeaccdc61a72fa7f8f066512e3ba585245074467d41ce284fdb36771da39042fb0efa270bf02e4f2095a38a39a340d647ab2a4ef7bd99d4613ea#npm:0.0.27"],\
-            ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=289587"]\
+            ["typescript", "patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"]\
           ],\
           "packagePeers": [\
             "@types/typescript",\
@@ -11309,10 +11309,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["typescript", [\
-        ["patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=289587", {\
-          "packageLocation": "./.yarn/cache/typescript-patch-f8edcd7439-1f8f3b6aae.zip/node_modules/typescript/",\
+        ["patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441", {\
+          "packageLocation": "./.yarn/cache/typescript-patch-2e8dbfb8ab-0f4da2f15e.zip/node_modules/typescript/",\
           "packageDependencies": [\
-            ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=289587"]\
+            ["typescript", "patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -11657,7 +11657,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["pug-loader", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:2.4.0"],\
             ["rxjs", "npm:7.8.1"],\
             ["tslib", "npm:2.6.2"],\
-            ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=289587"],\
+            ["typescript", "patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"],\
             ["zone.js", "npm:0.14.0"]\
           ],\
           "linkType": "SOFT"\
