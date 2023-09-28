@@ -25,7 +25,7 @@ services:
         depends_on:
             - mysql
     mysql:
-        image: 'mysql/mysql-server:8.0'
+        image: 'mysql/mysql-server:8.0@sha256:d6c8301b7834c5b9c2b733b10b7e630f441af7bc917c74dba379f24eeeb6a313'
         ports:
             - '${FORWARD_DB_PORT:-3306}:3306'
         environment:
