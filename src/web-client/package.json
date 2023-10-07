@@ -29,7 +29,7 @@
     "@angular/cli": "16.2.5",
     "@angular/compiler-cli": "16.2.8",
     "@types/jasmine": "5.1.0",
-    "@types/node": "20.8.2",
+    "@types/node": "20.8.3",
     "@wizishop/ng-wizi-bulma": "15.0.3",
     "apply-loader": "2.0.0",
     "jasmine-core": "5.1.1",
