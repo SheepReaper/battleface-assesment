@@ -38,7 +38,7 @@ const RAW_RUNTIME_STATE =
           ["@angular/platform-browser-dynamic", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:16.2.10"],\
           ["@angular/router", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:16.2.10"],\
           ["@types/jasmine", "npm:5.1.1"],\
-          ["@types/node", "npm:20.8.7"],\
+          ["@types/node", "npm:20.8.8"],\
           ["@wizishop/ng-wizi-bulma", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:15.0.3"],\
           ["apply-loader", "npm:2.0.0"],\
           ["bulma", "npm:0.9.4"],\
@@ -3939,6 +3939,14 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../../../cache/others/berry/cache/@types-node-npm-20.8.7-a09c56cd33-10c0.zip/node_modules/@types/node/",\
         "packageDependencies": [\
           ["@types/node", "npm:20.8.7"],\
+          ["undici-types", "npm:5.25.3"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:20.8.8", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@types-node-npm-20.8.8-8e65100064-10c0.zip/node_modules/@types/node/",\
+        "packageDependencies": [\
+          ["@types/node", "npm:20.8.8"],\
           ["undici-types", "npm:5.25.3"]\
         ],\
         "linkType": "HARD"\
@@ -11647,7 +11655,7 @@ const RAW_RUNTIME_STATE =
           ["@angular/platform-browser-dynamic", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:16.2.10"],\
           ["@angular/router", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:16.2.10"],\
           ["@types/jasmine", "npm:5.1.1"],\
-          ["@types/node", "npm:20.8.7"],\
+          ["@types/node", "npm:20.8.8"],\
           ["@wizishop/ng-wizi-bulma", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:15.0.3"],\
           ["apply-loader", "npm:2.0.0"],\
           ["bulma", "npm:0.9.4"],\
