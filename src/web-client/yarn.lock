@@ -2520,12 +2520,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:20.8.8":
-  version: 20.8.8
-  resolution: "@types/node@npm:20.8.8"
+"@types/node@npm:20.8.9":
+  version: 20.8.9
+  resolution: "@types/node@npm:20.8.9"
   dependencies:
-    undici-types: "npm:~5.25.1"
-  checksum: 739b3d6f4aa760d72373d504d91adec86ac2eab502f68a80214711983e7d1886fd276ade78a276a2affe4942a55ad65cf655c3aa9464d1150f6405445c5ba635
+    undici-types: "npm:~5.26.4"
+  checksum: 6fb5604ac087c8be9aeb9ee1413fae2e691c603c9a691bd722e113597b883f21e8380a44d114ab894b435a491bfc939c8478cd57bcf890c585b961343b124964
   languageName: node
   linkType: hard
 
@@ -8927,6 +8927,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"undici-types@npm:~5.26.4":
+  version: 5.26.5
+  resolution: "undici-types@npm:5.26.5"
+  checksum: bb673d7876c2d411b6eb6c560e0c571eef4a01c1c19925175d16e3a30c4c428181fb8d7ae802a261f283e4166a0ac435e2f505743aa9e45d893f9a3df017b501
+  languageName: node
+  linkType: hard
+
 "unicode-canonical-property-names-ecmascript@npm:^2.0.0":
   version: 2.0.0
   resolution: "unicode-canonical-property-names-ecmascript@npm:2.0.0"
@@ -9195,7 +9202,7 @@ __metadata:
     "@angular/platform-browser-dynamic": "npm:16.2.10"
     "@angular/router": "npm:16.2.10"
     "@types/jasmine": "npm:5.1.1"
-    "@types/node": "npm:20.8.8"
+    "@types/node": "npm:20.8.9"
     "@wizishop/ng-wizi-bulma": "npm:15.0.3"
     apply-loader: "npm:2.0.0"
     bulma: "npm:0.9.4"
