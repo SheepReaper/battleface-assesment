@@ -2478,10 +2478,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jasmine@npm:5.1.2":
-  version: 5.1.2
-  resolution: "@types/jasmine@npm:5.1.2"
-  checksum: e0cf7aef3fdb4c31847a031fd26515bdd436ff158536b9a1bfd3fdc64513de8c3ee94f20c58242b839911d0b83448864511e7bf7015bf1b74ca7cf407feb1c02
+"@types/jasmine@npm:5.1.4":
+  version: 5.1.4
+  resolution: "@types/jasmine@npm:5.1.4"
+  checksum: 4b8d27182e62f5003db1f1f174a810ace704e411cbfd0bc41edbaacf307246aec1f9bd20812846700198fc881268834ffde1d5301f819b1ba7caac9662534ceb
   languageName: node
   linkType: hard
 
@@ -9151,7 +9151,7 @@ __metadata:
     "@angular/platform-browser": "npm:17.0.4"
     "@angular/platform-browser-dynamic": "npm:17.0.4"
     "@angular/router": "npm:17.0.4"
-    "@types/jasmine": "npm:5.1.2"
+    "@types/jasmine": "npm:5.1.4"
     "@types/node": "npm:20.9.2"
     "@wizishop/ng-wizi-bulma": "npm:15.0.3"
     apply-loader: "npm:2.0.0"
