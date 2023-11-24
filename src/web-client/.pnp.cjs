@@ -52,7 +52,7 @@ const RAW_RUNTIME_STATE =
           ["pug-loader", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:2.4.0"],\
           ["rxjs", "npm:7.8.1"],\
           ["tslib", "npm:2.6.2"],\
-          ["typescript", "patch:typescript@npm%3A5.2.2#optional!builtin<compat/typescript>::version=5.2.2&hash=f3b441"],\
+          ["typescript", "patch:typescript@npm%3A5.3.2#optional!builtin<compat/typescript>::version=5.3.2&hash=e012d7"],\
           ["zone.js", "npm:0.14.2"]\
         ],\
         "linkType": "SOFT"\
@@ -172,7 +172,7 @@ const RAW_RUNTIME_STATE =
           ["text-table", "npm:0.2.0"],\
           ["tree-kill", "npm:1.2.2"],\
           ["tslib", "npm:2.6.2"],\
-          ["typescript", "patch:typescript@npm%3A5.2.2#optional!builtin<compat/typescript>::version=5.2.2&hash=f3b441"],\
+          ["typescript", "patch:typescript@npm%3A5.3.2#optional!builtin<compat/typescript>::version=5.3.2&hash=e012d7"],\
           ["undici", "npm:5.27.2"],\
           ["vite", "virtual:c00d5666da843480b8d56572765cf4761d2f06105389b9df81d76ac86efc3b2363eac957a56fbdc1053483734f11bd2fe6e87d775a02f90bd7defea3fd23aa81#npm:4.5.0"],\
           ["webpack", "virtual:c00d5666da843480b8d56572765cf4761d2f06105389b9df81d76ac86efc3b2363eac957a56fbdc1053483734f11bd2fe6e87d775a02f90bd7defea3fd23aa81#npm:5.89.0"],\
@@ -451,7 +451,7 @@ const RAW_RUNTIME_STATE =
           ["reflect-metadata", "npm:0.1.13"],\
           ["semver", "npm:7.5.4"],\
           ["tslib", "npm:2.6.2"],\
-          ["typescript", "patch:typescript@npm%3A5.2.2#optional!builtin<compat/typescript>::version=5.2.2&hash=f3b441"],\
+          ["typescript", "patch:typescript@npm%3A5.3.2#optional!builtin<compat/typescript>::version=5.3.2&hash=e012d7"],\
           ["yargs", "npm:17.7.2"]\
         ],\
         "packagePeers": [\
@@ -3536,7 +3536,7 @@ const RAW_RUNTIME_STATE =
           ["@types/angular__compiler-cli", null],\
           ["@types/typescript", null],\
           ["@types/webpack", null],\
-          ["typescript", "patch:typescript@npm%3A5.2.2#optional!builtin<compat/typescript>::version=5.2.2&hash=f3b441"],\
+          ["typescript", "patch:typescript@npm%3A5.3.2#optional!builtin<compat/typescript>::version=5.3.2&hash=e012d7"],\
           ["webpack", "virtual:c00d5666da843480b8d56572765cf4761d2f06105389b9df81d76ac86efc3b2363eac957a56fbdc1053483734f11bd2fe6e87d775a02f90bd7defea3fd23aa81#npm:5.89.0"]\
         ],\
         "packagePeers": [\
@@ -4249,7 +4249,7 @@ const RAW_RUNTIME_STATE =
           ["bulma-extensions", "npm:6.2.7"],\
           ["rxjs", "npm:7.8.1"],\
           ["tslib", "npm:2.6.2"],\
-          ["typescript", "patch:typescript@npm%3A5.2.2#optional!builtin<compat/typescript>::version=5.2.2&hash=f3b441"]\
+          ["typescript", "patch:typescript@npm%3A5.3.2#optional!builtin<compat/typescript>::version=5.3.2&hash=e012d7"]\
         ],\
         "packagePeers": [\
           "@angular/animations",\
@@ -11272,10 +11272,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["typescript", [\
-      ["patch:typescript@npm%3A5.2.2#optional!builtin<compat/typescript>::version=5.2.2&hash=f3b441", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/typescript-patch-3914634c3a-10c0.zip/node_modules/typescript/",\
+      ["patch:typescript@npm%3A5.3.2#optional!builtin<compat/typescript>::version=5.3.2&hash=e012d7", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/typescript-patch-71fdfda6a2-10c0.zip/node_modules/typescript/",\
         "packageDependencies": [\
-          ["typescript", "patch:typescript@npm%3A5.2.2#optional!builtin<compat/typescript>::version=5.2.2&hash=f3b441"]\
+          ["typescript", "patch:typescript@npm%3A5.3.2#optional!builtin<compat/typescript>::version=5.3.2&hash=e012d7"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -11608,7 +11608,7 @@ const RAW_RUNTIME_STATE =
           ["pug-loader", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:2.4.0"],\
           ["rxjs", "npm:7.8.1"],\
           ["tslib", "npm:2.6.2"],\
-          ["typescript", "patch:typescript@npm%3A5.2.2#optional!builtin<compat/typescript>::version=5.2.2&hash=f3b441"],\
+          ["typescript", "patch:typescript@npm%3A5.3.2#optional!builtin<compat/typescript>::version=5.3.2&hash=e012d7"],\
           ["zone.js", "npm:0.14.2"]\
         ],\
         "linkType": "SOFT"\
