@@ -437,7 +437,7 @@ const RAW_RUNTIME_STATE =
           ["chokidar", "npm:3.6.0"],\
           ["convert-source-map", "npm:1.9.0"],\
           ["reflect-metadata", "npm:0.2.2"],\
-          ["semver", "npm:7.6.0"],\
+          ["semver", "npm:7.6.2"],\
           ["tslib", "npm:2.6.2"],\
           ["typescript", "patch:typescript@npm%3A5.4.5#optional!builtin<compat/typescript>::version=5.4.5&hash=5adc0c"],\
           ["yargs", "npm:17.7.2"]\
@@ -3687,11 +3687,11 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@npmcli/fs", [\
-      ["npm:3.1.0", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/@npmcli-fs-npm-3.1.0-0844a57978-10c0.zip/node_modules/@npmcli/fs/",\
+      ["npm:3.1.1", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@npmcli-fs-npm-3.1.1-c19bd09f3c-10c0.zip/node_modules/@npmcli/fs/",\
         "packageDependencies": [\
-          ["@npmcli/fs", "npm:3.1.0"],\
-          ["semver", "npm:7.6.0"]\
+          ["@npmcli/fs", "npm:3.1.1"],\
+          ["semver", "npm:7.6.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3707,7 +3707,7 @@ const RAW_RUNTIME_STATE =
           ["proc-log", "npm:4.2.0"],\
           ["promise-inflight", "virtual:620f3173f0f03916ac11a9e711484feb420e15ad6d0a8559e4fce55fd589e16de29f3710bd2e59ab8b8e69808a8c9fe84fdae03f916625029aa69926e59011d3#npm:1.0.1"],\
           ["promise-retry", "npm:2.0.1"],\
-          ["semver", "npm:7.6.0"],\
+          ["semver", "npm:7.6.2"],\
           ["which", "npm:4.0.0"]\
         ],\
         "linkType": "HARD"\
@@ -3718,7 +3718,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../../../cache/others/berry/cache/@npmcli-installed-package-contents-npm-2.1.0-82f7020627-10c0.zip/node_modules/@npmcli/installed-package-contents/",\
         "packageDependencies": [\
           ["@npmcli/installed-package-contents", "npm:2.1.0"],\
-          ["npm-bundled", "npm:3.0.0"],\
+          ["npm-bundled", "npm:3.0.1"],\
           ["npm-normalize-package-bin", "npm:3.0.1"]\
         ],\
         "linkType": "HARD"\
@@ -3739,12 +3739,12 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@npmcli/package-json", "npm:5.1.0"],\
           ["@npmcli/git", "npm:5.0.7"],\
-          ["glob", "npm:10.3.12"],\
+          ["glob", "npm:10.3.15"],\
           ["hosted-git-info", "npm:7.0.2"],\
           ["json-parse-even-better-errors", "npm:3.0.2"],\
           ["normalize-package-data", "npm:6.0.1"],\
           ["proc-log", "npm:4.2.0"],\
-          ["semver", "npm:7.6.0"]\
+          ["semver", "npm:7.6.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3952,7 +3952,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../../../cache/others/berry/cache/@sigstore-bundle-npm-2.3.1-0752f486b4-10c0.zip/node_modules/@sigstore/bundle/",\
         "packageDependencies": [\
           ["@sigstore/bundle", "npm:2.3.1"],\
-          ["@sigstore/protobuf-specs", "npm:0.3.1"]\
+          ["@sigstore/protobuf-specs", "npm:0.3.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3967,34 +3967,36 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@sigstore/protobuf-specs", [\
-      ["npm:0.3.1", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/@sigstore-protobuf-specs-npm-0.3.1-91ffe48aa4-10c0.zip/node_modules/@sigstore/protobuf-specs/",\
+      ["npm:0.3.2", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@sigstore-protobuf-specs-npm-0.3.2-ff6825392f-10c0.zip/node_modules/@sigstore/protobuf-specs/",\
         "packageDependencies": [\
-          ["@sigstore/protobuf-specs", "npm:0.3.1"]\
+          ["@sigstore/protobuf-specs", "npm:0.3.2"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@sigstore/sign", [\
-      ["npm:2.3.0", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/@sigstore-sign-npm-2.3.0-79a5e75e7a-10c0.zip/node_modules/@sigstore/sign/",\
+      ["npm:2.3.1", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@sigstore-sign-npm-2.3.1-bd0a456259-10c0.zip/node_modules/@sigstore/sign/",\
         "packageDependencies": [\
-          ["@sigstore/sign", "npm:2.3.0"],\
+          ["@sigstore/sign", "npm:2.3.1"],\
           ["@sigstore/bundle", "npm:2.3.1"],\
           ["@sigstore/core", "npm:1.1.0"],\
-          ["@sigstore/protobuf-specs", "npm:0.3.1"],\
-          ["make-fetch-happen", "npm:13.0.1"]\
+          ["@sigstore/protobuf-specs", "npm:0.3.2"],\
+          ["make-fetch-happen", "npm:13.0.1"],\
+          ["proc-log", "npm:4.2.0"],\
+          ["promise-retry", "npm:2.0.1"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@sigstore/tuf", [\
-      ["npm:2.3.2", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/@sigstore-tuf-npm-2.3.2-068a4b1576-10c0.zip/node_modules/@sigstore/tuf/",\
+      ["npm:2.3.3", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@sigstore-tuf-npm-2.3.3-fb3fa27cd1-10c0.zip/node_modules/@sigstore/tuf/",\
         "packageDependencies": [\
-          ["@sigstore/tuf", "npm:2.3.2"],\
-          ["@sigstore/protobuf-specs", "npm:0.3.1"],\
-          ["tuf-js", "npm:2.2.0"]\
+          ["@sigstore/tuf", "npm:2.3.3"],\
+          ["@sigstore/protobuf-specs", "npm:0.3.2"],\
+          ["tuf-js", "npm:2.2.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4006,7 +4008,7 @@ const RAW_RUNTIME_STATE =
           ["@sigstore/verify", "npm:1.2.0"],\
           ["@sigstore/bundle", "npm:2.3.1"],\
           ["@sigstore/core", "npm:1.1.0"],\
-          ["@sigstore/protobuf-specs", "npm:0.3.1"]\
+          ["@sigstore/protobuf-specs", "npm:0.3.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4030,10 +4032,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@tufjs/models", [\
-      ["npm:2.0.0", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/@tufjs-models-npm-2.0.0-f0effe74b2-10c0.zip/node_modules/@tufjs/models/",\
+      ["npm:2.0.1", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@tufjs-models-npm-2.0.1-39153b9fec-10c0.zip/node_modules/@tufjs/models/",\
         "packageDependencies": [\
-          ["@tufjs/models", "npm:2.0.0"],\
+          ["@tufjs/models", "npm:2.0.1"],\
           ["@tufjs/canonical-json", "npm:2.0.0"],\
           ["minimatch", "npm:9.0.4"]\
         ],\
@@ -4046,7 +4048,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@types/body-parser", "npm:1.19.5"],\
           ["@types/connect", "npm:3.4.38"],\
-          ["@types/node", "npm:20.12.8"]\
+          ["@types/node", "npm:20.12.11"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4056,7 +4058,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../../../cache/others/berry/cache/@types-bonjour-npm-3.5.13-6614f112a1-10c0.zip/node_modules/@types/bonjour/",\
         "packageDependencies": [\
           ["@types/bonjour", "npm:3.5.13"],\
-          ["@types/node", "npm:20.12.8"]\
+          ["@types/node", "npm:20.12.11"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4066,7 +4068,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../../../cache/others/berry/cache/@types-connect-npm-3.4.38-a8a4c38337-10c0.zip/node_modules/@types/connect/",\
         "packageDependencies": [\
           ["@types/connect", "npm:3.4.38"],\
-          ["@types/node", "npm:20.12.8"]\
+          ["@types/node", "npm:20.12.11"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4077,7 +4079,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@types/connect-history-api-fallback", "npm:1.5.4"],\
           ["@types/express-serve-static-core", "npm:4.19.0"],\
-          ["@types/node", "npm:20.12.8"]\
+          ["@types/node", "npm:20.12.11"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4096,7 +4098,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../../../cache/others/berry/cache/@types-cors-npm-2.8.17-2556d16051-10c0.zip/node_modules/@types/cors/",\
         "packageDependencies": [\
           ["@types/cors", "npm:2.8.17"],\
-          ["@types/node", "npm:20.12.8"]\
+          ["@types/node", "npm:20.12.11"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4150,7 +4152,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../../../cache/others/berry/cache/@types-express-serve-static-core-npm-4.19.0-7b35544f17-10c0.zip/node_modules/@types/express-serve-static-core/",\
         "packageDependencies": [\
           ["@types/express-serve-static-core", "npm:4.19.0"],\
-          ["@types/node", "npm:20.12.8"],\
+          ["@types/node", "npm:20.12.11"],\
           ["@types/qs", "npm:6.9.15"],\
           ["@types/range-parser", "npm:1.2.7"],\
           ["@types/send", "npm:0.17.4"]\
@@ -4172,7 +4174,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../../../cache/others/berry/cache/@types-http-proxy-npm-1.17.14-170e4e32fb-10c0.zip/node_modules/@types/http-proxy/",\
         "packageDependencies": [\
           ["@types/http-proxy", "npm:1.17.14"],\
-          ["@types/node", "npm:20.12.8"]\
+          ["@types/node", "npm:20.12.11"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4212,14 +4214,6 @@ const RAW_RUNTIME_STATE =
           ["undici-types", "npm:5.26.5"]\
         ],\
         "linkType": "HARD"\
-      }],\
-      ["npm:20.12.8", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/@types-node-npm-20.12.8-f4c49e4029-10c0.zip/node_modules/@types/node/",\
-        "packageDependencies": [\
-          ["@types/node", "npm:20.12.8"],\
-          ["undici-types", "npm:5.26.5"]\
-        ],\
-        "linkType": "HARD"\
       }]\
     ]],\
     ["@types/node-forge", [\
@@ -4227,7 +4221,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../../../cache/others/berry/cache/@types-node-forge-npm-1.3.11-132541fb70-10c0.zip/node_modules/@types/node-forge/",\
         "packageDependencies": [\
           ["@types/node-forge", "npm:1.3.11"],\
-          ["@types/node", "npm:20.12.8"]\
+          ["@types/node", "npm:20.12.11"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4265,7 +4259,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@types/send", "npm:0.17.4"],\
           ["@types/mime", "npm:1.3.5"],\
-          ["@types/node", "npm:20.12.8"]\
+          ["@types/node", "npm:20.12.11"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4286,7 +4280,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@types/serve-static", "npm:1.15.7"],\
           ["@types/http-errors", "npm:2.0.4"],\
-          ["@types/node", "npm:20.12.8"],\
+          ["@types/node", "npm:20.12.11"],\
           ["@types/send", "npm:0.17.4"]\
         ],\
         "linkType": "HARD"\
@@ -4297,7 +4291,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../../../cache/others/berry/cache/@types-sockjs-npm-0.3.36-e07c2960d5-10c0.zip/node_modules/@types/sockjs/",\
         "packageDependencies": [\
           ["@types/sockjs", "npm:0.3.36"],\
-          ["@types/node", "npm:20.12.8"]\
+          ["@types/node", "npm:20.12.11"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4307,7 +4301,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../../../cache/others/berry/cache/@types-ws-npm-8.5.10-a877a38f71-10c0.zip/node_modules/@types/ws/",\
         "packageDependencies": [\
           ["@types/ws", "npm:8.5.10"],\
-          ["@types/node", "npm:20.12.8"]\
+          ["@types/node", "npm:20.12.11"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4930,7 +4924,7 @@ const RAW_RUNTIME_STATE =
           ["autoprefixer", "virtual:12a5435d68fe98b2cc8ff926c7f96d3e8fa2ab605ae69548de3f22edb0639f50fe13fa357b69d3898d2ecf8c51173f9a42d71b76b728a34841d29a82153ce95e#npm:10.4.18"],\
           ["@types/postcss", null],\
           ["browserslist", "npm:4.23.0"],\
-          ["caniuse-lite", "npm:1.0.30001616"],\
+          ["caniuse-lite", "npm:1.0.30001617"],\
           ["fraction.js", "npm:4.3.7"],\
           ["normalize-range", "npm:0.1.2"],\
           ["picocolors", "npm:1.0.0"],\
@@ -5209,8 +5203,8 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../../../cache/others/berry/cache/browserslist-npm-4.23.0-8126a959d4-10c0.zip/node_modules/browserslist/",\
         "packageDependencies": [\
           ["browserslist", "npm:4.23.0"],\
-          ["caniuse-lite", "npm:1.0.30001616"],\
-          ["electron-to-chromium", "npm:1.4.756"],\
+          ["caniuse-lite", "npm:1.0.30001617"],\
+          ["electron-to-chromium", "npm:1.4.763"],\
           ["node-releases", "npm:2.0.14"],\
           ["update-browserslist-db", "virtual:8126a959d46e6def6d7f2497c47970a23a94adac85f5be1df9be290c674503b9bcbe0dc057e2741ee222cc2a8a3b9f584b20c3a9eb5ce085704d99fc5d94514c#npm:1.0.15"]\
         ],\
@@ -5233,16 +5227,6 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../../../cache/others/berry/cache/buffer-from-npm-1.1.2-03d2f20d7e-10c0.zip/node_modules/buffer-from/",\
         "packageDependencies": [\
           ["buffer-from", "npm:1.1.2"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["builtins", [\
-      ["npm:5.1.0", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/builtins-npm-5.1.0-490ec3b04c-10c0.zip/node_modules/builtins/",\
-        "packageDependencies": [\
-          ["builtins", "npm:5.1.0"],\
-          ["semver", "npm:7.6.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -5286,11 +5270,11 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../../../cache/others/berry/cache/cacache-npm-18.0.3-7936f526c3-10c0.zip/node_modules/cacache/",\
         "packageDependencies": [\
           ["cacache", "npm:18.0.3"],\
-          ["@npmcli/fs", "npm:3.1.0"],\
+          ["@npmcli/fs", "npm:3.1.1"],\
           ["fs-minipass", "npm:3.0.3"],\
-          ["glob", "npm:10.3.12"],\
+          ["glob", "npm:10.3.15"],\
           ["lru-cache", "npm:10.2.2"],\
-          ["minipass", "npm:7.1.0"],\
+          ["minipass", "npm:7.1.1"],\
           ["minipass-collect", "npm:2.0.1"],\
           ["minipass-flush", "npm:1.0.5"],\
           ["minipass-pipeline", "npm:1.2.4"],\
@@ -5335,10 +5319,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["caniuse-lite", [\
-      ["npm:1.0.30001616", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/caniuse-lite-npm-1.0.30001616-da356c6432-10c0.zip/node_modules/caniuse-lite/",\
+      ["npm:1.0.30001617", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/caniuse-lite-npm-1.0.30001617-5cf8ee8c51-10c0.zip/node_modules/caniuse-lite/",\
         "packageDependencies": [\
-          ["caniuse-lite", "npm:1.0.30001616"]\
+          ["caniuse-lite", "npm:1.0.30001617"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -5838,7 +5822,7 @@ const RAW_RUNTIME_STATE =
           ["postcss-modules-scope", "virtual:80b16f05badb824715cce281ec6b2978339a088c7a5206fc0920e3991a4fa1367dd310d7d58611d26b413e05d50c1f84d661e9c0c266cf723ab9cc62ef85c0d3#npm:3.2.0"],\
           ["postcss-modules-values", "virtual:80b16f05badb824715cce281ec6b2978339a088c7a5206fc0920e3991a4fa1367dd310d7d58611d26b413e05d50c1f84d661e9c0c266cf723ab9cc62ef85c0d3#npm:4.0.0"],\
           ["postcss-value-parser", "npm:4.2.0"],\
-          ["semver", "npm:7.6.0"],\
+          ["semver", "npm:7.6.2"],\
           ["webpack", "virtual:12a5435d68fe98b2cc8ff926c7f96d3e8fa2ab605ae69548de3f22edb0639f50fe13fa357b69d3898d2ecf8c51173f9a42d71b76b728a34841d29a82153ce95e#npm:5.90.3"]\
         ],\
         "packagePeers": [\
@@ -6132,10 +6116,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["electron-to-chromium", [\
-      ["npm:1.4.756", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/electron-to-chromium-npm-1.4.756-60988025f5-10c0.zip/node_modules/electron-to-chromium/",\
+      ["npm:1.4.763", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/electron-to-chromium-npm-1.4.763-ee873a602e-10c0.zip/node_modules/electron-to-chromium/",\
         "packageDependencies": [\
-          ["electron-to-chromium", "npm:1.4.756"]\
+          ["electron-to-chromium", "npm:1.4.763"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -6191,7 +6175,7 @@ const RAW_RUNTIME_STATE =
           ["engine.io", "npm:6.5.4"],\
           ["@types/cookie", "npm:0.4.1"],\
           ["@types/cors", "npm:2.8.17"],\
-          ["@types/node", "npm:20.12.8"],\
+          ["@types/node", "npm:20.12.11"],\
           ["accepts", "npm:1.3.8"],\
           ["base64id", "npm:2.0.0"],\
           ["cookie", "npm:0.4.2"],\
@@ -6213,10 +6197,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["enhanced-resolve", [\
-      ["npm:5.16.0", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/enhanced-resolve-npm-5.16.0-610f8be3e5-10c0.zip/node_modules/enhanced-resolve/",\
+      ["npm:5.16.1", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/enhanced-resolve-npm-5.16.1-0564383bb8-10c0.zip/node_modules/enhanced-resolve/",\
         "packageDependencies": [\
-          ["enhanced-resolve", "npm:5.16.0"],\
+          ["enhanced-resolve", "npm:5.16.1"],\
           ["graceful-fs", "npm:4.2.11"],\
           ["tapable", "npm:2.2.1"]\
         ],\
@@ -6811,7 +6795,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../../../cache/others/berry/cache/fs-minipass-npm-3.0.3-d148d6ac19-10c0.zip/node_modules/fs-minipass/",\
         "packageDependencies": [\
           ["fs-minipass", "npm:3.0.3"],\
-          ["minipass", "npm:7.1.0"]\
+          ["minipass", "npm:7.1.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -6904,15 +6888,15 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["glob", [\
-      ["npm:10.3.12", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/glob-npm-10.3.12-f2e90133a0-10c0.zip/node_modules/glob/",\
+      ["npm:10.3.15", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/glob-npm-10.3.15-501e87a16f-10c0.zip/node_modules/glob/",\
         "packageDependencies": [\
-          ["glob", "npm:10.3.12"],\
+          ["glob", "npm:10.3.15"],\
           ["foreground-child", "npm:3.1.1"],\
           ["jackspeak", "npm:2.3.6"],\
           ["minimatch", "npm:9.0.4"],\
-          ["minipass", "npm:7.1.0"],\
-          ["path-scurry", "npm:1.10.2"]\
+          ["minipass", "npm:7.1.1"],\
+          ["path-scurry", "npm:1.11.1"]\
         ],\
         "linkType": "HARD"\
       }],\
@@ -7777,7 +7761,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../../../cache/others/berry/cache/jest-worker-npm-27.5.1-1c110b5894-10c0.zip/node_modules/jest-worker/",\
         "packageDependencies": [\
           ["jest-worker", "npm:27.5.1"],\
-          ["@types/node", "npm:20.12.8"],\
+          ["@types/node", "npm:20.12.11"],\
           ["merge-stream", "npm:2.0.0"],\
           ["supports-color", "npm:8.1.1"]\
         ],\
@@ -8321,7 +8305,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../../../cache/others/berry/cache/make-dir-npm-4.0.0-ec3cd921cc-10c0.zip/node_modules/make-dir/",\
         "packageDependencies": [\
           ["make-dir", "npm:4.0.0"],\
-          ["semver", "npm:7.6.0"]\
+          ["semver", "npm:7.6.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -8335,7 +8319,7 @@ const RAW_RUNTIME_STATE =
           ["cacache", "npm:18.0.3"],\
           ["http-cache-semantics", "npm:4.1.1"],\
           ["is-lambda", "npm:1.0.1"],\
-          ["minipass", "npm:7.1.0"],\
+          ["minipass", "npm:7.1.1"],\
           ["minipass-fetch", "npm:3.0.5"],\
           ["minipass-flush", "npm:1.0.5"],\
           ["minipass-pipeline", "npm:1.2.4"],\
@@ -8533,10 +8517,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:7.1.0", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/minipass-npm-7.1.0-e8c0e30e88-10c0.zip/node_modules/minipass/",\
+      ["npm:7.1.1", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/minipass-npm-7.1.1-52e31602d3-10c0.zip/node_modules/minipass/",\
         "packageDependencies": [\
-          ["minipass", "npm:7.1.0"]\
+          ["minipass", "npm:7.1.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -8546,7 +8530,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../../../cache/others/berry/cache/minipass-collect-npm-2.0.1-73d3907e40-10c0.zip/node_modules/minipass-collect/",\
         "packageDependencies": [\
           ["minipass-collect", "npm:2.0.1"],\
-          ["minipass", "npm:7.1.0"]\
+          ["minipass", "npm:7.1.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -8557,7 +8541,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["minipass-fetch", "npm:3.0.5"],\
           ["encoding", "npm:0.1.13"],\
-          ["minipass", "npm:7.1.0"],\
+          ["minipass", "npm:7.1.1"],\
           ["minipass-sized", "npm:1.0.3"],\
           ["minizlib", "npm:2.1.2"]\
         ],\
@@ -8761,12 +8745,12 @@ const RAW_RUNTIME_STATE =
           ["node-gyp", "npm:10.1.0"],\
           ["env-paths", "npm:2.2.1"],\
           ["exponential-backoff", "npm:3.1.1"],\
-          ["glob", "npm:10.3.12"],\
+          ["glob", "npm:10.3.15"],\
           ["graceful-fs", "npm:4.2.11"],\
           ["make-fetch-happen", "npm:13.0.1"],\
           ["nopt", "npm:7.2.1"],\
           ["proc-log", "npm:3.0.0"],\
-          ["semver", "npm:7.6.0"],\
+          ["semver", "npm:7.6.2"],\
           ["tar", "npm:6.2.1"],\
           ["which", "npm:4.0.0"]\
         ],\
@@ -8808,7 +8792,7 @@ const RAW_RUNTIME_STATE =
           ["normalize-package-data", "npm:6.0.1"],\
           ["hosted-git-info", "npm:7.0.2"],\
           ["is-core-module", "npm:2.13.1"],\
-          ["semver", "npm:7.6.0"],\
+          ["semver", "npm:7.6.2"],\
           ["validate-npm-package-license", "npm:3.0.4"]\
         ],\
         "linkType": "HARD"\
@@ -8833,10 +8817,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["npm-bundled", [\
-      ["npm:3.0.0", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/npm-bundled-npm-3.0.0-0b3c5ee4f3-10c0.zip/node_modules/npm-bundled/",\
+      ["npm:3.0.1", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/npm-bundled-npm-3.0.1-e98b9846dc-10c0.zip/node_modules/npm-bundled/",\
         "packageDependencies": [\
-          ["npm-bundled", "npm:3.0.0"],\
+          ["npm-bundled", "npm:3.0.1"],\
           ["npm-normalize-package-bin", "npm:3.0.1"]\
         ],\
         "linkType": "HARD"\
@@ -8847,7 +8831,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../../../cache/others/berry/cache/npm-install-checks-npm-6.3.0-d093d4e008-10c0.zip/node_modules/npm-install-checks/",\
         "packageDependencies": [\
           ["npm-install-checks", "npm:6.3.0"],\
-          ["semver", "npm:7.6.0"]\
+          ["semver", "npm:7.6.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -8868,8 +8852,8 @@ const RAW_RUNTIME_STATE =
           ["npm-package-arg", "npm:11.0.1"],\
           ["hosted-git-info", "npm:7.0.2"],\
           ["proc-log", "npm:3.0.0"],\
-          ["semver", "npm:7.6.0"],\
-          ["validate-npm-package-name", "npm:5.0.0"]\
+          ["semver", "npm:7.6.2"],\
+          ["validate-npm-package-name", "npm:5.0.1"]\
         ],\
         "linkType": "HARD"\
       }],\
@@ -8879,8 +8863,8 @@ const RAW_RUNTIME_STATE =
           ["npm-package-arg", "npm:11.0.2"],\
           ["hosted-git-info", "npm:7.0.2"],\
           ["proc-log", "npm:4.2.0"],\
-          ["semver", "npm:7.6.0"],\
-          ["validate-npm-package-name", "npm:5.0.0"]\
+          ["semver", "npm:7.6.2"],\
+          ["validate-npm-package-name", "npm:5.0.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -8903,7 +8887,7 @@ const RAW_RUNTIME_STATE =
           ["npm-install-checks", "npm:6.3.0"],\
           ["npm-normalize-package-bin", "npm:3.0.1"],\
           ["npm-package-arg", "npm:11.0.2"],\
-          ["semver", "npm:7.6.0"]\
+          ["semver", "npm:7.6.2"]\
         ],\
         "linkType": "HARD"\
       }],\
@@ -8914,7 +8898,7 @@ const RAW_RUNTIME_STATE =
           ["npm-install-checks", "npm:6.3.0"],\
           ["npm-normalize-package-bin", "npm:3.0.1"],\
           ["npm-package-arg", "npm:11.0.2"],\
-          ["semver", "npm:7.6.0"]\
+          ["semver", "npm:7.6.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -8926,7 +8910,7 @@ const RAW_RUNTIME_STATE =
           ["npm-registry-fetch", "npm:16.2.1"],\
           ["@npmcli/redact", "npm:1.1.0"],\
           ["make-fetch-happen", "npm:13.0.1"],\
-          ["minipass", "npm:7.1.0"],\
+          ["minipass", "npm:7.1.1"],\
           ["minipass-fetch", "npm:3.0.5"],\
           ["minipass-json-stream", "npm:1.0.1"],\
           ["minizlib", "npm:2.1.2"],\
@@ -9146,7 +9130,7 @@ const RAW_RUNTIME_STATE =
           ["@npmcli/run-script", "npm:7.0.4"],\
           ["cacache", "npm:18.0.3"],\
           ["fs-minipass", "npm:3.0.3"],\
-          ["minipass", "npm:7.1.0"],\
+          ["minipass", "npm:7.1.1"],\
           ["npm-package-arg", "npm:11.0.2"],\
           ["npm-packlist", "npm:8.0.2"],\
           ["npm-pick-manifest", "npm:9.0.1"],\
@@ -9279,12 +9263,12 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["path-scurry", [\
-      ["npm:1.10.2", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/path-scurry-npm-1.10.2-676482c764-10c0.zip/node_modules/path-scurry/",\
+      ["npm:1.11.1", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/path-scurry-npm-1.11.1-aaf8c339af-10c0.zip/node_modules/path-scurry/",\
         "packageDependencies": [\
-          ["path-scurry", "npm:1.10.2"],\
+          ["path-scurry", "npm:1.11.1"],\
           ["lru-cache", "npm:10.2.2"],\
-          ["minipass", "npm:7.1.0"]\
+          ["minipass", "npm:7.1.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -9402,7 +9386,7 @@ const RAW_RUNTIME_STATE =
           ["cosmiconfig", "virtual:caeba26c4bbaeb7cb0770819530ad9bc1205fbab2944a3114e59c65bd58617cd414f2a19846066de58daea2cce498e99bbf8f6b572cc139a15e3d83bccfc466e#npm:9.0.0"],\
           ["jiti", "npm:1.21.0"],\
           ["postcss", "npm:8.4.35"],\
-          ["semver", "npm:7.6.0"],\
+          ["semver", "npm:7.6.2"],\
           ["webpack", "virtual:12a5435d68fe98b2cc8ff926c7f96d3e8fa2ab605ae69548de3f22edb0639f50fe13fa357b69d3898d2ecf8c51173f9a42d71b76b728a34841d29a82153ce95e#npm:5.90.3"]\
         ],\
         "packagePeers": [\
@@ -9873,7 +9857,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../../../cache/others/berry/cache/read-package-json-npm-7.0.1-94653faf6b-10c0.zip/node_modules/read-package-json/",\
         "packageDependencies": [\
           ["read-package-json", "npm:7.0.1"],\
-          ["glob", "npm:10.3.12"],\
+          ["glob", "npm:10.3.15"],\
           ["json-parse-even-better-errors", "npm:3.0.2"],\
           ["normalize-package-data", "npm:6.0.1"],\
           ["npm-normalize-package-bin", "npm:3.0.1"]\
@@ -10339,6 +10323,13 @@ const RAW_RUNTIME_STATE =
           ["lru-cache", "npm:6.0.0"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:7.6.2", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/semver-npm-7.6.2-0fec6944bb-10c0.zip/node_modules/semver/",\
+        "packageDependencies": [\
+          ["semver", "npm:7.6.2"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["send", [\
@@ -10507,9 +10498,9 @@ const RAW_RUNTIME_STATE =
           ["sigstore", "npm:2.3.0"],\
           ["@sigstore/bundle", "npm:2.3.1"],\
           ["@sigstore/core", "npm:1.1.0"],\
-          ["@sigstore/protobuf-specs", "npm:0.3.1"],\
-          ["@sigstore/sign", "npm:2.3.0"],\
-          ["@sigstore/tuf", "npm:2.3.2"],\
+          ["@sigstore/protobuf-specs", "npm:0.3.2"],\
+          ["@sigstore/sign", "npm:2.3.1"],\
+          ["@sigstore/tuf", "npm:2.3.3"],\
           ["@sigstore/verify", "npm:1.2.0"]\
         ],\
         "linkType": "HARD"\
@@ -10756,7 +10747,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../../../cache/others/berry/cache/ssri-npm-10.0.6-6b8eaec5ce-10c0.zip/node_modules/ssri/",\
         "packageDependencies": [\
           ["ssri", "npm:10.0.6"],\
-          ["minipass", "npm:7.1.0"]\
+          ["minipass", "npm:7.1.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -11081,11 +11072,11 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["tuf-js", [\
-      ["npm:2.2.0", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/tuf-js-npm-2.2.0-6b651a4290-10c0.zip/node_modules/tuf-js/",\
+      ["npm:2.2.1", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/tuf-js-npm-2.2.1-3baf642bf9-10c0.zip/node_modules/tuf-js/",\
         "packageDependencies": [\
-          ["tuf-js", "npm:2.2.0"],\
-          ["@tufjs/models", "npm:2.0.0"],\
+          ["tuf-js", "npm:2.2.1"],\
+          ["@tufjs/models", "npm:2.0.1"],\
           ["debug", "virtual:c9e1a4b59e37cb479517edede3bf2093b28c0ca1a9d0e517f3c345075bd1e468980b94b4957e389116607ee7155441dfd7d09e19a4229d5d09bcf06244401590#npm:4.3.4"],\
           ["make-fetch-happen", "npm:13.0.1"]\
         ],\
@@ -11306,11 +11297,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["validate-npm-package-name", [\
-      ["npm:5.0.0", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/validate-npm-package-name-npm-5.0.0-fc061c1b84-10c0.zip/node_modules/validate-npm-package-name/",\
+      ["npm:5.0.1", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/validate-npm-package-name-npm-5.0.1-5af9a082cd-10c0.zip/node_modules/validate-npm-package-name/",\
         "packageDependencies": [\
-          ["validate-npm-package-name", "npm:5.0.0"],\
-          ["builtins", "npm:5.1.0"]\
+          ["validate-npm-package-name", "npm:5.0.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -11487,7 +11477,7 @@ const RAW_RUNTIME_STATE =
           ["acorn-import-assertions", "virtual:ca605e5b0178475e89deabe80a9c82d52ca64bae7326bdd821ef3bf8273da6b80899bd7f288e219353e86e16d0e22645cfc1a7ebf4fc48cbdc316569a693aff3#npm:1.9.0"],\
           ["browserslist", "npm:4.23.0"],\
           ["chrome-trace-event", "npm:1.0.3"],\
-          ["enhanced-resolve", "npm:5.16.0"],\
+          ["enhanced-resolve", "npm:5.16.1"],\
           ["es-module-lexer", "npm:1.5.2"],\
           ["eslint-scope", "npm:5.1.1"],\
           ["events", "npm:3.3.0"],\
@@ -13242,6 +13232,12 @@ class ProxiedFS extends FakeFS {
   rmdirSync(p, opts) {
     return this.baseFs.rmdirSync(this.mapToBase(p), opts);
   }
+  async rmPromise(p, opts) {
+    return this.baseFs.rmPromise(this.mapToBase(p), opts);
+  }
+  rmSync(p, opts) {
+    return this.baseFs.rmSync(this.mapToBase(p), opts);
+  }
   async linkPromise(existingP, newP) {
     return this.baseFs.linkPromise(this.mapToBase(existingP), this.mapToBase(newP));
   }
@@ -13622,6 +13618,18 @@ class NodeFS extends BasePortableFakeFS {
   }
   rmdirSync(p, opts) {
     return this.realFs.rmdirSync(npath.fromPortablePath(p), opts);
+  }
+  async rmPromise(p, opts) {
+    return await new Promise((resolve, reject) => {
+      if (opts) {
+        this.realFs.rm(npath.fromPortablePath(p), opts, this.makeCallback(resolve, reject));
+      } else {
+        this.realFs.rm(npath.fromPortablePath(p), this.makeCallback(resolve, reject));
+      }
+    });
+  }
+  rmSync(p, opts) {
+    return this.realFs.rmSync(npath.fromPortablePath(p), opts);
   }
   async linkPromise(existingP, newP) {
     return await new Promise((resolve, reject) => {
@@ -14278,6 +14286,20 @@ class MountFS extends BasePortableFakeFS {
       return mountFs.rmdirSync(subPath, opts);
     });
   }
+  async rmPromise(p, opts) {
+    return await this.makeCallPromise(p, async () => {
+      return await this.baseFs.rmPromise(p, opts);
+    }, async (mountFs, { subPath }) => {
+      return await mountFs.rmPromise(subPath, opts);
+    });
+  }
+  rmSync(p, opts) {
+    return this.makeCallSync(p, () => {
+      return this.baseFs.rmSync(p, opts);
+    }, (mountFs, { subPath }) => {
+      return mountFs.rmSync(subPath, opts);
+    });
+  }
   async linkPromise(existingP, newP) {
     return await this.makeCallPromise(newP, async () => {
       return await this.baseFs.linkPromise(existingP, newP);
@@ -14916,6 +14938,7 @@ const SYNC_IMPLEMENTATIONS = /* @__PURE__ */ new Set([
   `realpathSync`,
   `renameSync`,
   `rmdirSync`,
+  `rmSync`,
   `statSync`,
   `symlinkSync`,
   `truncateSync`,
@@ -14951,6 +14974,7 @@ const ASYNC_IMPLEMENTATIONS = /* @__PURE__ */ new Set([
   `readlinkPromise`,
   `renamePromise`,
   `rmdirPromise`,
+  `rmPromise`,
   `statPromise`,
   `symlinkPromise`,
   `truncatePromise`,
@@ -16974,6 +16998,27 @@ class ZipFS extends BasePortableFakeFS {
     const index = this.entries.get(resolvedP);
     if (typeof index === `undefined`)
       throw EINVAL(`rmdir '${p}'`);
+    this.deleteEntry(p, index);
+  }
+  async rmPromise(p, opts) {
+    return this.rmSync(p, opts);
+  }
+  rmSync(p, { recursive = false } = {}) {
+    if (this.readOnly)
+      throw EROFS(`rm '${p}'`);
+    if (recursive) {
+      this.removeSync(p);
+      return;
+    }
+    const resolvedP = this.resolveFilename(`rm '${p}'`, p);
+    const directoryListing = this.listings.get(resolvedP);
+    if (!directoryListing)
+      throw ENOTDIR(`rm '${p}'`);
+    if (directoryListing.size > 0)
+      throw ENOTEMPTY(`rm '${p}'`);
+    const index = this.entries.get(resolvedP);
+    if (typeof index === `undefined`)
+      throw EINVAL(`rm '${p}'`);
     this.deleteEntry(p, index);
   }
   hydrateDirectory(resolvedP) {

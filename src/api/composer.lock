@@ -2885,20 +2885,20 @@
         },
         {
             "name": "psr/http-factory",
-            "version": "1.0.2",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/http-factory.git",
-                "reference": "e616d01114759c4c489f93b099585439f795fe35"
+                "reference": "2b4765fddfe3b508ac62f829e852b1501d3f6e8a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/http-factory/zipball/e616d01114759c4c489f93b099585439f795fe35",
-                "reference": "e616d01114759c4c489f93b099585439f795fe35",
+                "url": "https://api.github.com/repos/php-fig/http-factory/zipball/2b4765fddfe3b508ac62f829e852b1501d3f6e8a",
+                "reference": "2b4765fddfe3b508ac62f829e852b1501d3f6e8a",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.0.0",
+                "php": ">=7.1",
                 "psr/http-message": "^1.0 || ^2.0"
             },
             "type": "library",
@@ -2922,7 +2922,7 @@
                     "homepage": "https://www.php-fig.org/"
                 }
             ],
-            "description": "Common interfaces for PSR-7 HTTP message factories",
+            "description": "PSR-17: Common interfaces for PSR-7 HTTP message factories",
             "keywords": [
                 "factory",
                 "http",
@@ -2934,9 +2934,9 @@
                 "response"
             ],
             "support": {
-                "source": "https://github.com/php-fig/http-factory/tree/1.0.2"
+                "source": "https://github.com/php-fig/http-factory"
             },
-            "time": "2023-04-10T20:10:41+00:00"
+            "time": "2024-04-15T12:06:14+00:00"
         },
         {
             "name": "psr/http-message",
@@ -3398,16 +3398,16 @@
         },
         {
             "name": "swagger-api/swagger-ui",
-            "version": "v5.17.2",
+            "version": "v5.17.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swagger-api/swagger-ui.git",
-                "reference": "a88cce2cb3ce746dfb3eda1380ac42b33670da22"
+                "reference": "60304834e69fa747aeba403545747d7dc2ebcf86"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swagger-api/swagger-ui/zipball/a88cce2cb3ce746dfb3eda1380ac42b33670da22",
-                "reference": "a88cce2cb3ce746dfb3eda1380ac42b33670da22",
+                "url": "https://api.github.com/repos/swagger-api/swagger-ui/zipball/60304834e69fa747aeba403545747d7dc2ebcf86",
+                "reference": "60304834e69fa747aeba403545747d7dc2ebcf86",
                 "shasum": ""
             },
             "type": "library",
@@ -3453,9 +3453,9 @@
             ],
             "support": {
                 "issues": "https://github.com/swagger-api/swagger-ui/issues",
-                "source": "https://github.com/swagger-api/swagger-ui/tree/v5.17.2"
+                "source": "https://github.com/swagger-api/swagger-ui/tree/v5.17.7"
             },
-            "time": "2024-04-25T14:26:19+00:00"
+            "time": "2024-05-09T11:11:55+00:00"
         },
         {
             "name": "symfony/console",
