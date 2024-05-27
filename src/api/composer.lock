@@ -3381,16 +3381,16 @@
         },
         {
             "name": "swagger-api/swagger-ui",
-            "version": "v5.17.7",
+            "version": "v5.17.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swagger-api/swagger-ui.git",
-                "reference": "60304834e69fa747aeba403545747d7dc2ebcf86"
+                "reference": "0291215a08c2e8a074c2f93caaa019308452c7c9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swagger-api/swagger-ui/zipball/60304834e69fa747aeba403545747d7dc2ebcf86",
-                "reference": "60304834e69fa747aeba403545747d7dc2ebcf86",
+                "url": "https://api.github.com/repos/swagger-api/swagger-ui/zipball/0291215a08c2e8a074c2f93caaa019308452c7c9",
+                "reference": "0291215a08c2e8a074c2f93caaa019308452c7c9",
                 "shasum": ""
             },
             "type": "library",
@@ -3436,9 +3436,9 @@
             ],
             "support": {
                 "issues": "https://github.com/swagger-api/swagger-ui/issues",
-                "source": "https://github.com/swagger-api/swagger-ui/tree/v5.17.7"
+                "source": "https://github.com/swagger-api/swagger-ui/tree/v5.17.12"
             },
-            "time": "2024-05-09T11:11:55+00:00"
+            "time": "2024-05-21T12:28:47+00:00"
         },
         {
             "name": "symfony/console",
@@ -8169,16 +8169,16 @@
         },
         {
             "name": "spatie/flare-client-php",
-            "version": "1.5.1",
+            "version": "1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/flare-client-php.git",
-                "reference": "e27977d534eefe04c154c6fd8460217024054c05"
+                "reference": "220a7c8745e9fa427d54099f47147c4b97fe6462"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/flare-client-php/zipball/e27977d534eefe04c154c6fd8460217024054c05",
-                "reference": "e27977d534eefe04c154c6fd8460217024054c05",
+                "url": "https://api.github.com/repos/spatie/flare-client-php/zipball/220a7c8745e9fa427d54099f47147c4b97fe6462",
+                "reference": "220a7c8745e9fa427d54099f47147c4b97fe6462",
                 "shasum": ""
             },
             "require": {
@@ -8226,7 +8226,7 @@
             ],
             "support": {
                 "issues": "https://github.com/spatie/flare-client-php/issues",
-                "source": "https://github.com/spatie/flare-client-php/tree/1.5.1"
+                "source": "https://github.com/spatie/flare-client-php/tree/1.6.0"
             },
             "funding": [
                 {
@@ -8234,7 +8234,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-05-03T15:43:14+00:00"
+            "time": "2024-05-22T09:45:39+00:00"
         },
         {
             "name": "spatie/ignition",
