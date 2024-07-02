@@ -42,7 +42,7 @@ const RAW_RUNTIME_STATE =
           ["@types/node", "npm:20.14.9"],\
           ["@wizishop/ng-wizi-bulma", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:15.0.3"],\
           ["apply-loader", "npm:2.0.0"],\
-          ["bulma", "npm:0.9.4"],\
+          ["bulma", "npm:1.0.1"],\
           ["bulma-extensions", "npm:6.2.7"],\
           ["jasmine-core", "npm:5.1.2"],\
           ["karma", "npm:6.4.3"],\
@@ -4536,7 +4536,7 @@ const RAW_RUNTIME_STATE =
           ["@types/bulma", null],\
           ["@types/bulma-extensions", null],\
           ["@types/typescript", null],\
-          ["bulma", "npm:0.9.4"],\
+          ["bulma", "npm:1.0.1"],\
           ["bulma-extensions", "npm:6.2.7"],\
           ["rxjs", "npm:7.8.1"],\
           ["tslib", "npm:2.6.3"],\
@@ -5246,10 +5246,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["bulma", [\
-      ["npm:0.9.4", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/bulma-npm-0.9.4-31b34939be-10c0.zip/node_modules/bulma/",\
+      ["npm:1.0.1", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/bulma-npm-1.0.1-5a5bf94352-10c0.zip/node_modules/bulma/",\
         "packageDependencies": [\
-          ["bulma", "npm:0.9.4"]\
+          ["bulma", "npm:1.0.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -11485,7 +11485,7 @@ const RAW_RUNTIME_STATE =
           ["@types/node", "npm:20.14.9"],\
           ["@wizishop/ng-wizi-bulma", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:15.0.3"],\
           ["apply-loader", "npm:2.0.0"],\
-          ["bulma", "npm:0.9.4"],\
+          ["bulma", "npm:1.0.1"],\
           ["bulma-extensions", "npm:6.2.7"],\
           ["jasmine-core", "npm:5.1.2"],\
           ["karma", "npm:6.4.3"],\
