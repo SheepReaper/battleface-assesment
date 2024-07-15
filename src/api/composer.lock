@@ -6015,16 +6015,16 @@
         },
         {
             "name": "zircote/swagger-php",
-            "version": "4.10.3",
+            "version": "4.10.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zircote/swagger-php.git",
-                "reference": "ad3f913d39b2a4dfb6e59ee4babb35a6b4a2b998"
+                "reference": "88895afcfaac955ed061489a2b19a431bf58b3e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zircote/swagger-php/zipball/ad3f913d39b2a4dfb6e59ee4babb35a6b4a2b998",
-                "reference": "ad3f913d39b2a4dfb6e59ee4babb35a6b4a2b998",
+                "url": "https://api.github.com/repos/zircote/swagger-php/zipball/88895afcfaac955ed061489a2b19a431bf58b3e2",
+                "reference": "88895afcfaac955ed061489a2b19a431bf58b3e2",
                 "shasum": ""
             },
             "require": {
@@ -6090,9 +6090,9 @@
             ],
             "support": {
                 "issues": "https://github.com/zircote/swagger-php/issues",
-                "source": "https://github.com/zircote/swagger-php/tree/4.10.3"
+                "source": "https://github.com/zircote/swagger-php/tree/4.10.4"
             },
-            "time": "2024-07-04T07:53:11+00:00"
+            "time": "2024-07-10T02:06:32+00:00"
         }
     ],
     "packages-dev": [
@@ -8170,16 +8170,16 @@
         },
         {
             "name": "spatie/error-solutions",
-            "version": "1.0.4",
+            "version": "1.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/error-solutions.git",
-                "reference": "264a7eef892aceb2fd65e206127ad3af4f3a2d6b"
+                "reference": "4bb6c734dc992b2db3e26df1ef021c75d2218b13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/error-solutions/zipball/264a7eef892aceb2fd65e206127ad3af4f3a2d6b",
-                "reference": "264a7eef892aceb2fd65e206127ad3af4f3a2d6b",
+                "url": "https://api.github.com/repos/spatie/error-solutions/zipball/4bb6c734dc992b2db3e26df1ef021c75d2218b13",
+                "reference": "4bb6c734dc992b2db3e26df1ef021c75d2218b13",
                 "shasum": ""
             },
             "require": {
@@ -8232,7 +8232,7 @@
             ],
             "support": {
                 "issues": "https://github.com/spatie/error-solutions/issues",
-                "source": "https://github.com/spatie/error-solutions/tree/1.0.4"
+                "source": "https://github.com/spatie/error-solutions/tree/1.0.5"
             },
             "funding": [
                 {
@@ -8240,7 +8240,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-06-28T13:33:04+00:00"
+            "time": "2024-07-09T12:13:32+00:00"
         },
         {
             "name": "spatie/flare-client-php",
