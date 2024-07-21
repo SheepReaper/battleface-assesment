@@ -44,7 +44,7 @@ const RAW_RUNTIME_STATE =
           ["apply-loader", "npm:2.0.0"],\
           ["bulma", "npm:0.9.4"],\
           ["bulma-extensions", "npm:6.2.7"],\
-          ["jasmine-core", "npm:5.1.2"],\
+          ["jasmine-core", "npm:5.2.0"],\
           ["karma", "npm:6.4.3"],\
           ["karma-chrome-launcher", "npm:3.2.0"],\
           ["karma-coverage", "npm:2.2.1"],\
@@ -7798,10 +7798,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:5.1.2", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/jasmine-core-npm-5.1.2-b8ab393496-10c0.zip/node_modules/jasmine-core/",\
+      ["npm:5.2.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/jasmine-core-npm-5.2.0-5fc4ed8876-10c0.zip/node_modules/jasmine-core/",\
         "packageDependencies": [\
-          ["jasmine-core", "npm:5.1.2"]\
+          ["jasmine-core", "npm:5.2.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -8073,7 +8073,7 @@ const RAW_RUNTIME_STATE =
           ["@types/jasmine-core", null],\
           ["@types/karma", null],\
           ["@types/karma-jasmine", null],\
-          ["jasmine-core", "npm:5.1.2"],\
+          ["jasmine-core", "npm:5.2.0"],\
           ["karma", "npm:6.4.3"],\
           ["karma-jasmine", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:5.1.0"]\
         ],\
@@ -11519,7 +11519,7 @@ const RAW_RUNTIME_STATE =
           ["apply-loader", "npm:2.0.0"],\
           ["bulma", "npm:0.9.4"],\
           ["bulma-extensions", "npm:6.2.7"],\
-          ["jasmine-core", "npm:5.1.2"],\
+          ["jasmine-core", "npm:5.2.0"],\
           ["karma", "npm:6.4.3"],\
           ["karma-chrome-launcher", "npm:3.2.0"],\
           ["karma-coverage", "npm:2.2.1"],\
