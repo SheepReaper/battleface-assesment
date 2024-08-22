@@ -28,16 +28,16 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["@angular-devkit/build-angular", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.8"],\
-          ["@angular/animations", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.11"],\
+          ["@angular/animations", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
           ["@angular/cli", "npm:17.3.8"],\
-          ["@angular/common", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.11"],\
-          ["@angular/compiler", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.11"],\
-          ["@angular/compiler-cli", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.11"],\
-          ["@angular/core", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.11"],\
-          ["@angular/forms", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.11"],\
-          ["@angular/platform-browser", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.11"],\
-          ["@angular/platform-browser-dynamic", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.11"],\
-          ["@angular/router", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.11"],\
+          ["@angular/common", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
+          ["@angular/compiler", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
+          ["@angular/compiler-cli", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
+          ["@angular/core", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
+          ["@angular/forms", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
+          ["@angular/platform-browser", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
+          ["@angular/platform-browser-dynamic", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
+          ["@angular/router", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
           ["@types/jasmine", "npm:5.1.4"],\
           ["@types/node", "npm:20.16.1"],\
           ["@wizishop/ng-wizi-bulma", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:15.0.3"],\
@@ -54,7 +54,7 @@ const RAW_RUNTIME_STATE =
           ["rxjs", "npm:7.8.1"],\
           ["tslib", "npm:2.6.3"],\
           ["typescript", "patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=379a07"],\
-          ["zone.js", "npm:0.14.7"]\
+          ["zone.js", "npm:0.15.0"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -97,7 +97,7 @@ const RAW_RUNTIME_STATE =
           ["@angular-devkit/architect", "npm:0.1703.8"],\
           ["@angular-devkit/build-webpack", "virtual:7341a17cba8304d8e3b80b2eedaf3ca87ec8427f758c51fdcaf4fab7dd953091a16c522e8ff2486f76e8805af15f20dcae8986a60ba330748c89fa338cf6cdc7#npm:0.1703.8"],\
           ["@angular-devkit/core", "virtual:7ac460b5dea5c414643a2d58b1dd0e4d45e0378c29b4b7b910472a80be2463a54b129134694eb33289e9236a522dbc7fb361efa3139f9c71036ca4d9fdb2aac2#npm:17.3.8"],\
-          ["@angular/compiler-cli", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.11"],\
+          ["@angular/compiler-cli", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
           ["@angular/localize", null],\
           ["@angular/platform-server", null],\
           ["@angular/service-worker", null],\
@@ -286,18 +286,18 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@angular/animations", [\
-      ["npm:17.3.11", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/@angular-animations-npm-17.3.11-d843f14e2d-10c0.zip/node_modules/@angular/animations/",\
+      ["npm:17.3.12", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@angular-animations-npm-17.3.12-56af357c2e-10c0.zip/node_modules/@angular/animations/",\
         "packageDependencies": [\
-          ["@angular/animations", "npm:17.3.11"]\
+          ["@angular/animations", "npm:17.3.12"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.11", {\
-        "packageLocation": "./.yarn/__virtual__/@angular-animations-virtual-7ecb409444/7/cache/others/berry/cache/@angular-animations-npm-17.3.11-d843f14e2d-10c0.zip/node_modules/@angular/animations/",\
+      ["virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12", {\
+        "packageLocation": "./.yarn/__virtual__/@angular-animations-virtual-e0edc2b6c3/7/cache/others/berry/cache/@angular-animations-npm-17.3.12-56af357c2e-10c0.zip/node_modules/@angular/animations/",\
         "packageDependencies": [\
-          ["@angular/animations", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.11"],\
-          ["@angular/core", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.11"],\
+          ["@angular/animations", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
+          ["@angular/core", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
           ["@types/angular__core", null],\
           ["tslib", "npm:2.6.3"]\
         ],\
@@ -320,8 +320,8 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/@angular-cdk-virtual-29b56e51e8/7/cache/others/berry/cache/@angular-cdk-npm-15.2.9-2e6c4eb191-10c0.zip/node_modules/@angular/cdk/",\
         "packageDependencies": [\
           ["@angular/cdk", "virtual:41d779d604f4ecd7bbc507d0cb0220ed14286af10f15cf347664f95ddae608438a534f6bdbec8cce027882ab91079f4a7c766d839d7507781c226e0492ff1bf8#npm:15.2.9"],\
-          ["@angular/common", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.11"],\
-          ["@angular/core", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.11"],\
+          ["@angular/common", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
+          ["@angular/core", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
           ["@types/angular__common", null],\
           ["@types/angular__core", null],\
           ["@types/rxjs", null],\
@@ -368,18 +368,18 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@angular/common", [\
-      ["npm:17.3.11", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/@angular-common-npm-17.3.11-aee23b2285-10c0.zip/node_modules/@angular/common/",\
+      ["npm:17.3.12", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@angular-common-npm-17.3.12-ecc45e55ef-10c0.zip/node_modules/@angular/common/",\
         "packageDependencies": [\
-          ["@angular/common", "npm:17.3.11"]\
+          ["@angular/common", "npm:17.3.12"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.11", {\
-        "packageLocation": "./.yarn/__virtual__/@angular-common-virtual-62f41fb683/7/cache/others/berry/cache/@angular-common-npm-17.3.11-aee23b2285-10c0.zip/node_modules/@angular/common/",\
+      ["virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12", {\
+        "packageLocation": "./.yarn/__virtual__/@angular-common-virtual-39308b81ed/7/cache/others/berry/cache/@angular-common-npm-17.3.12-ecc45e55ef-10c0.zip/node_modules/@angular/common/",\
         "packageDependencies": [\
-          ["@angular/common", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.11"],\
-          ["@angular/core", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.11"],\
+          ["@angular/common", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
+          ["@angular/core", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
           ["@types/angular__core", null],\
           ["@types/rxjs", null],\
           ["rxjs", "npm:7.8.1"],\
@@ -395,18 +395,18 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@angular/compiler", [\
-      ["npm:17.3.11", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/@angular-compiler-npm-17.3.11-02cc3fc6b0-10c0.zip/node_modules/@angular/compiler/",\
+      ["npm:17.3.12", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@angular-compiler-npm-17.3.12-be5523478a-10c0.zip/node_modules/@angular/compiler/",\
         "packageDependencies": [\
-          ["@angular/compiler", "npm:17.3.11"]\
+          ["@angular/compiler", "npm:17.3.12"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.11", {\
-        "packageLocation": "./.yarn/__virtual__/@angular-compiler-virtual-5123c9ecbc/7/cache/others/berry/cache/@angular-compiler-npm-17.3.11-02cc3fc6b0-10c0.zip/node_modules/@angular/compiler/",\
+      ["virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12", {\
+        "packageLocation": "./.yarn/__virtual__/@angular-compiler-virtual-d89ae189dd/7/cache/others/berry/cache/@angular-compiler-npm-17.3.12-be5523478a-10c0.zip/node_modules/@angular/compiler/",\
         "packageDependencies": [\
-          ["@angular/compiler", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.11"],\
-          ["@angular/core", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.11"],\
+          ["@angular/compiler", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
+          ["@angular/core", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
           ["@types/angular__core", null],\
           ["tslib", "npm:2.6.3"]\
         ],\
@@ -418,18 +418,18 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@angular/compiler-cli", [\
-      ["npm:17.3.11", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/@angular-compiler-cli-npm-17.3.11-5186457a3a-10c0.zip/node_modules/@angular/compiler-cli/",\
+      ["npm:17.3.12", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@angular-compiler-cli-npm-17.3.12-28553bd7fb-10c0.zip/node_modules/@angular/compiler-cli/",\
         "packageDependencies": [\
-          ["@angular/compiler-cli", "npm:17.3.11"]\
+          ["@angular/compiler-cli", "npm:17.3.12"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.11", {\
-        "packageLocation": "./.yarn/__virtual__/@angular-compiler-cli-virtual-ffc325508b/7/cache/others/berry/cache/@angular-compiler-cli-npm-17.3.11-5186457a3a-10c0.zip/node_modules/@angular/compiler-cli/",\
+      ["virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12", {\
+        "packageLocation": "./.yarn/__virtual__/@angular-compiler-cli-virtual-f1b7df1da3/7/cache/others/berry/cache/@angular-compiler-cli-npm-17.3.12-28553bd7fb-10c0.zip/node_modules/@angular/compiler-cli/",\
         "packageDependencies": [\
-          ["@angular/compiler-cli", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.11"],\
-          ["@angular/compiler", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.11"],\
+          ["@angular/compiler-cli", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
+          ["@angular/compiler", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
           ["@babel/core", "npm:7.23.9"],\
           ["@jridgewell/sourcemap-codec", "npm:1.5.0"],\
           ["@types/angular__compiler", null],\
@@ -452,22 +452,22 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@angular/core", [\
-      ["npm:17.3.11", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/@angular-core-npm-17.3.11-e1c1cfbe11-10c0.zip/node_modules/@angular/core/",\
+      ["npm:17.3.12", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@angular-core-npm-17.3.12-2a67a3f974-10c0.zip/node_modules/@angular/core/",\
         "packageDependencies": [\
-          ["@angular/core", "npm:17.3.11"]\
+          ["@angular/core", "npm:17.3.12"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.11", {\
-        "packageLocation": "./.yarn/__virtual__/@angular-core-virtual-b2a99a7a4c/7/cache/others/berry/cache/@angular-core-npm-17.3.11-e1c1cfbe11-10c0.zip/node_modules/@angular/core/",\
+      ["virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12", {\
+        "packageLocation": "./.yarn/__virtual__/@angular-core-virtual-77dea443cc/7/cache/others/berry/cache/@angular-core-npm-17.3.12-2a67a3f974-10c0.zip/node_modules/@angular/core/",\
         "packageDependencies": [\
-          ["@angular/core", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.11"],\
+          ["@angular/core", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
           ["@types/rxjs", null],\
           ["@types/zone.js", null],\
           ["rxjs", "npm:7.8.1"],\
           ["tslib", "npm:2.6.3"],\
-          ["zone.js", "npm:0.14.7"]\
+          ["zone.js", "npm:0.15.0"]\
         ],\
         "packagePeers": [\
           "@types/rxjs",\
@@ -479,20 +479,20 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@angular/forms", [\
-      ["npm:17.3.11", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/@angular-forms-npm-17.3.11-4f96f771ba-10c0.zip/node_modules/@angular/forms/",\
+      ["npm:17.3.12", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@angular-forms-npm-17.3.12-ee7d0e7a78-10c0.zip/node_modules/@angular/forms/",\
         "packageDependencies": [\
-          ["@angular/forms", "npm:17.3.11"]\
+          ["@angular/forms", "npm:17.3.12"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.11", {\
-        "packageLocation": "./.yarn/__virtual__/@angular-forms-virtual-2007ffdca1/7/cache/others/berry/cache/@angular-forms-npm-17.3.11-4f96f771ba-10c0.zip/node_modules/@angular/forms/",\
+      ["virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12", {\
+        "packageLocation": "./.yarn/__virtual__/@angular-forms-virtual-70d63603a1/7/cache/others/berry/cache/@angular-forms-npm-17.3.12-ee7d0e7a78-10c0.zip/node_modules/@angular/forms/",\
         "packageDependencies": [\
-          ["@angular/forms", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.11"],\
-          ["@angular/common", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.11"],\
-          ["@angular/core", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.11"],\
-          ["@angular/platform-browser", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.11"],\
+          ["@angular/forms", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
+          ["@angular/common", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
+          ["@angular/core", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
+          ["@angular/platform-browser", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
           ["@types/angular__common", null],\
           ["@types/angular__core", null],\
           ["@types/angular__platform-browser", null],\
@@ -514,20 +514,20 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@angular/platform-browser", [\
-      ["npm:17.3.11", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/@angular-platform-browser-npm-17.3.11-f9f3f08604-10c0.zip/node_modules/@angular/platform-browser/",\
+      ["npm:17.3.12", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@angular-platform-browser-npm-17.3.12-b39f3167ae-10c0.zip/node_modules/@angular/platform-browser/",\
         "packageDependencies": [\
-          ["@angular/platform-browser", "npm:17.3.11"]\
+          ["@angular/platform-browser", "npm:17.3.12"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.11", {\
-        "packageLocation": "./.yarn/__virtual__/@angular-platform-browser-virtual-9749f0a92b/7/cache/others/berry/cache/@angular-platform-browser-npm-17.3.11-f9f3f08604-10c0.zip/node_modules/@angular/platform-browser/",\
+      ["virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12", {\
+        "packageLocation": "./.yarn/__virtual__/@angular-platform-browser-virtual-7c193a3674/7/cache/others/berry/cache/@angular-platform-browser-npm-17.3.12-b39f3167ae-10c0.zip/node_modules/@angular/platform-browser/",\
         "packageDependencies": [\
-          ["@angular/platform-browser", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.11"],\
-          ["@angular/animations", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.11"],\
-          ["@angular/common", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.11"],\
-          ["@angular/core", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.11"],\
+          ["@angular/platform-browser", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
+          ["@angular/animations", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
+          ["@angular/common", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
+          ["@angular/core", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
           ["@types/angular__animations", null],\
           ["@types/angular__common", null],\
           ["@types/angular__core", null],\
@@ -545,21 +545,21 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@angular/platform-browser-dynamic", [\
-      ["npm:17.3.11", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/@angular-platform-browser-dynamic-npm-17.3.11-acb5e1c8d5-10c0.zip/node_modules/@angular/platform-browser-dynamic/",\
+      ["npm:17.3.12", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@angular-platform-browser-dynamic-npm-17.3.12-078861dd0c-10c0.zip/node_modules/@angular/platform-browser-dynamic/",\
         "packageDependencies": [\
-          ["@angular/platform-browser-dynamic", "npm:17.3.11"]\
+          ["@angular/platform-browser-dynamic", "npm:17.3.12"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.11", {\
-        "packageLocation": "./.yarn/__virtual__/@angular-platform-browser-dynamic-virtual-22711d622d/7/cache/others/berry/cache/@angular-platform-browser-dynamic-npm-17.3.11-acb5e1c8d5-10c0.zip/node_modules/@angular/platform-browser-dynamic/",\
+      ["virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12", {\
+        "packageLocation": "./.yarn/__virtual__/@angular-platform-browser-dynamic-virtual-9a1d8690e3/7/cache/others/berry/cache/@angular-platform-browser-dynamic-npm-17.3.12-078861dd0c-10c0.zip/node_modules/@angular/platform-browser-dynamic/",\
         "packageDependencies": [\
-          ["@angular/platform-browser-dynamic", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.11"],\
-          ["@angular/common", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.11"],\
-          ["@angular/compiler", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.11"],\
-          ["@angular/core", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.11"],\
-          ["@angular/platform-browser", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.11"],\
+          ["@angular/platform-browser-dynamic", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
+          ["@angular/common", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
+          ["@angular/compiler", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
+          ["@angular/core", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
+          ["@angular/platform-browser", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
           ["@types/angular__common", null],\
           ["@types/angular__compiler", null],\
           ["@types/angular__core", null],\
@@ -580,20 +580,20 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@angular/router", [\
-      ["npm:17.3.11", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/@angular-router-npm-17.3.11-3ebd844ce7-10c0.zip/node_modules/@angular/router/",\
+      ["npm:17.3.12", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@angular-router-npm-17.3.12-6423c087c2-10c0.zip/node_modules/@angular/router/",\
         "packageDependencies": [\
-          ["@angular/router", "npm:17.3.11"]\
+          ["@angular/router", "npm:17.3.12"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.11", {\
-        "packageLocation": "./.yarn/__virtual__/@angular-router-virtual-630ceb399c/7/cache/others/berry/cache/@angular-router-npm-17.3.11-3ebd844ce7-10c0.zip/node_modules/@angular/router/",\
+      ["virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12", {\
+        "packageLocation": "./.yarn/__virtual__/@angular-router-virtual-3327d44117/7/cache/others/berry/cache/@angular-router-npm-17.3.12-6423c087c2-10c0.zip/node_modules/@angular/router/",\
         "packageDependencies": [\
-          ["@angular/router", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.11"],\
-          ["@angular/common", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.11"],\
-          ["@angular/core", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.11"],\
-          ["@angular/platform-browser", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.11"],\
+          ["@angular/router", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
+          ["@angular/common", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
+          ["@angular/core", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
+          ["@angular/platform-browser", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
           ["@types/angular__common", null],\
           ["@types/angular__core", null],\
           ["@types/angular__platform-browser", null],\
@@ -3637,7 +3637,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/@ngtools-webpack-virtual-dd751adf47/7/cache/others/berry/cache/@ngtools-webpack-npm-17.3.8-d84f9d9796-10c0.zip/node_modules/@ngtools/webpack/",\
         "packageDependencies": [\
           ["@ngtools/webpack", "virtual:7341a17cba8304d8e3b80b2eedaf3ca87ec8427f758c51fdcaf4fab7dd953091a16c522e8ff2486f76e8805af15f20dcae8986a60ba330748c89fa338cf6cdc7#npm:17.3.8"],\
-          ["@angular/compiler-cli", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.11"],\
+          ["@angular/compiler-cli", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
           ["@types/angular__compiler-cli", null],\
           ["@types/typescript", null],\
           ["@types/webpack", null],\
@@ -4534,10 +4534,10 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/@wizishop-ng-wizi-bulma-virtual-41d779d604/7/cache/others/berry/cache/@wizishop-ng-wizi-bulma-npm-15.0.3-768385a269-10c0.zip/node_modules/@wizishop/ng-wizi-bulma/",\
         "packageDependencies": [\
           ["@wizishop/ng-wizi-bulma", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:15.0.3"],\
-          ["@angular/animations", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.11"],\
+          ["@angular/animations", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
           ["@angular/cdk", "virtual:41d779d604f4ecd7bbc507d0cb0220ed14286af10f15cf347664f95ddae608438a534f6bdbec8cce027882ab91079f4a7c766d839d7507781c226e0492ff1bf8#npm:15.2.9"],\
-          ["@angular/common", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.11"],\
-          ["@angular/core", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.11"],\
+          ["@angular/common", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
+          ["@angular/core", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
           ["@types/angular__animations", null],\
           ["@types/angular__cdk", null],\
           ["@types/angular__common", null],\
@@ -11510,16 +11510,16 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["web-client", "workspace:."],\
           ["@angular-devkit/build-angular", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.8"],\
-          ["@angular/animations", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.11"],\
+          ["@angular/animations", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
           ["@angular/cli", "npm:17.3.8"],\
-          ["@angular/common", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.11"],\
-          ["@angular/compiler", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.11"],\
-          ["@angular/compiler-cli", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.11"],\
-          ["@angular/core", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.11"],\
-          ["@angular/forms", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.11"],\
-          ["@angular/platform-browser", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.11"],\
-          ["@angular/platform-browser-dynamic", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.11"],\
-          ["@angular/router", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.11"],\
+          ["@angular/common", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
+          ["@angular/compiler", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
+          ["@angular/compiler-cli", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
+          ["@angular/core", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
+          ["@angular/forms", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
+          ["@angular/platform-browser", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
+          ["@angular/platform-browser-dynamic", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
+          ["@angular/router", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
           ["@types/jasmine", "npm:5.1.4"],\
           ["@types/node", "npm:20.16.1"],\
           ["@wizishop/ng-wizi-bulma", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:15.0.3"],\
@@ -11536,7 +11536,7 @@ const RAW_RUNTIME_STATE =
           ["rxjs", "npm:7.8.1"],\
           ["tslib", "npm:2.6.3"],\
           ["typescript", "patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=379a07"],\
-          ["zone.js", "npm:0.14.7"]\
+          ["zone.js", "npm:0.15.0"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -11984,10 +11984,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["zone.js", [\
-      ["npm:0.14.7", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/zone.js-npm-0.14.7-a9174c89b4-10c0.zip/node_modules/zone.js/",\
+      ["npm:0.15.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/zone.js-npm-0.15.0-a2588597ce-10c0.zip/node_modules/zone.js/",\
         "packageDependencies": [\
-          ["zone.js", "npm:0.14.7"]\
+          ["zone.js", "npm:0.15.0"]\
         ],\
         "linkType": "HARD"\
       }]\
