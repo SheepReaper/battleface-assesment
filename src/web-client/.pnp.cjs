@@ -52,7 +52,7 @@ const RAW_RUNTIME_STATE =
           ["karma-jasmine-html-reporter", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:2.1.0"],\
           ["pug-loader", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:2.4.0"],\
           ["rxjs", "npm:7.8.1"],\
-          ["tslib", "npm:2.6.3"],\
+          ["tslib", "npm:2.7.0"],\
           ["typescript", "patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=379a07"],\
           ["zone.js", "npm:0.15.0"]\
         ],\
@@ -11148,6 +11148,13 @@ const RAW_RUNTIME_STATE =
           ["tslib", "npm:2.6.3"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:2.7.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/tslib-npm-2.7.0-21668f5c21-10c0.zip/node_modules/tslib/",\
+        "packageDependencies": [\
+          ["tslib", "npm:2.7.0"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["tuf-js", [\
@@ -11534,7 +11541,7 @@ const RAW_RUNTIME_STATE =
           ["karma-jasmine-html-reporter", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:2.1.0"],\
           ["pug-loader", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:2.4.0"],\
           ["rxjs", "npm:7.8.1"],\
-          ["tslib", "npm:2.6.3"],\
+          ["tslib", "npm:2.7.0"],\
           ["typescript", "patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=379a07"],\
           ["zone.js", "npm:0.15.0"]\
         ],\
