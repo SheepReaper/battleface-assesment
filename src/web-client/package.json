@@ -32,7 +32,7 @@
     "@types/node": "20.16.5",
     "@wizishop/ng-wizi-bulma": "15.0.3",
     "apply-loader": "2.0.0",
-    "jasmine-core": "5.2.0",
+    "jasmine-core": "5.3.0",
     "karma": "6.4.4",
     "karma-chrome-launcher": "3.2.0",
     "karma-coverage": "2.2.1",
