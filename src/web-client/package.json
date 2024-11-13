@@ -30,7 +30,7 @@
     "@angular/compiler-cli": "17.3.12",
     "@types/jasmine": "5.1.4",
     "@types/node": "20.17.6",
-    "@wizishop/ng-wizi-bulma": "15.0.3",
+    "@wizishop/ng-wizi-bulma": "17.0.0",
     "apply-loader": "2.0.0",
     "jasmine-core": "5.4.0",
     "karma": "6.4.4",

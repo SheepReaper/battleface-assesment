@@ -40,7 +40,7 @@ const RAW_RUNTIME_STATE =
           ["@angular/router", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
           ["@types/jasmine", "npm:5.1.4"],\
           ["@types/node", "npm:20.17.6"],\
-          ["@wizishop/ng-wizi-bulma", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:15.0.3"],\
+          ["@wizishop/ng-wizi-bulma", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.0.0"],\
           ["apply-loader", "npm:2.0.0"],\
           ["bulma", "npm:0.9.4"],\
           ["bulma-extensions", "npm:6.2.7"],\
@@ -316,10 +316,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:41d779d604f4ecd7bbc507d0cb0220ed14286af10f15cf347664f95ddae608438a534f6bdbec8cce027882ab91079f4a7c766d839d7507781c226e0492ff1bf8#npm:15.2.9", {\
-        "packageLocation": "./.yarn/__virtual__/@angular-cdk-virtual-29b56e51e8/7/cache/others/berry/cache/@angular-cdk-npm-15.2.9-2e6c4eb191-10c0.zip/node_modules/@angular/cdk/",\
+      ["virtual:7a762a2d4f2aca6e37b38cb2620381933f625dc81c616747704636a2738567cd4e8d1b88181ee3092e37ac045f063a8ad686a0aeb6ee8f6fdd34025401a88320#npm:15.2.9", {\
+        "packageLocation": "./.yarn/__virtual__/@angular-cdk-virtual-ac675b5fbd/7/cache/others/berry/cache/@angular-cdk-npm-15.2.9-2e6c4eb191-10c0.zip/node_modules/@angular/cdk/",\
         "packageDependencies": [\
-          ["@angular/cdk", "virtual:41d779d604f4ecd7bbc507d0cb0220ed14286af10f15cf347664f95ddae608438a534f6bdbec8cce027882ab91079f4a7c766d839d7507781c226e0492ff1bf8#npm:15.2.9"],\
+          ["@angular/cdk", "virtual:7a762a2d4f2aca6e37b38cb2620381933f625dc81c616747704636a2738567cd4e8d1b88181ee3092e37ac045f063a8ad686a0aeb6ee8f6fdd34025401a88320#npm:15.2.9"],\
           ["@angular/common", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
           ["@angular/core", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
           ["@types/angular__common", null],\
@@ -4465,19 +4465,19 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@wizishop/ng-wizi-bulma", [\
-      ["npm:15.0.3", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/@wizishop-ng-wizi-bulma-npm-15.0.3-768385a269-10c0.zip/node_modules/@wizishop/ng-wizi-bulma/",\
+      ["npm:17.0.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@wizishop-ng-wizi-bulma-npm-17.0.0-b4167cd7bc-10c0.zip/node_modules/@wizishop/ng-wizi-bulma/",\
         "packageDependencies": [\
-          ["@wizishop/ng-wizi-bulma", "npm:15.0.3"]\
+          ["@wizishop/ng-wizi-bulma", "npm:17.0.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:15.0.3", {\
-        "packageLocation": "./.yarn/__virtual__/@wizishop-ng-wizi-bulma-virtual-41d779d604/7/cache/others/berry/cache/@wizishop-ng-wizi-bulma-npm-15.0.3-768385a269-10c0.zip/node_modules/@wizishop/ng-wizi-bulma/",\
+      ["virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.0.0", {\
+        "packageLocation": "./.yarn/__virtual__/@wizishop-ng-wizi-bulma-virtual-7a762a2d4f/7/cache/others/berry/cache/@wizishop-ng-wizi-bulma-npm-17.0.0-b4167cd7bc-10c0.zip/node_modules/@wizishop/ng-wizi-bulma/",\
         "packageDependencies": [\
-          ["@wizishop/ng-wizi-bulma", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:15.0.3"],\
+          ["@wizishop/ng-wizi-bulma", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.0.0"],\
           ["@angular/animations", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
-          ["@angular/cdk", "virtual:41d779d604f4ecd7bbc507d0cb0220ed14286af10f15cf347664f95ddae608438a534f6bdbec8cce027882ab91079f4a7c766d839d7507781c226e0492ff1bf8#npm:15.2.9"],\
+          ["@angular/cdk", "virtual:7a762a2d4f2aca6e37b38cb2620381933f625dc81c616747704636a2738567cd4e8d1b88181ee3092e37ac045f063a8ad686a0aeb6ee8f6fdd34025401a88320#npm:15.2.9"],\
           ["@angular/common", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
           ["@angular/core", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
           ["@types/angular__animations", null],\
@@ -11425,7 +11425,7 @@ const RAW_RUNTIME_STATE =
           ["@angular/router", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
           ["@types/jasmine", "npm:5.1.4"],\
           ["@types/node", "npm:20.17.6"],\
-          ["@wizishop/ng-wizi-bulma", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:15.0.3"],\
+          ["@wizishop/ng-wizi-bulma", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.0.0"],\
           ["apply-loader", "npm:2.0.0"],\
           ["bulma", "npm:0.9.4"],\
           ["bulma-extensions", "npm:6.2.7"],\
