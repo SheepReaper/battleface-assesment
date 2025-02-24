@@ -51,7 +51,7 @@ const RAW_RUNTIME_STATE =
           ["karma-jasmine", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:5.1.0"],\
           ["karma-jasmine-html-reporter", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:2.1.0"],\
           ["pug-loader", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:2.4.0"],\
-          ["rxjs", "npm:7.8.1"],\
+          ["rxjs", "npm:7.8.2"],\
           ["tslib", "npm:2.8.1"],\
           ["typescript", "patch:typescript@npm%3A5.7.3#optional!builtin<compat/typescript>::version=5.7.3&hash=5786d5"],\
           ["zone.js", "npm:0.15.0"]\
@@ -382,7 +382,7 @@ const RAW_RUNTIME_STATE =
           ["@angular/core", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
           ["@types/angular__core", null],\
           ["@types/rxjs", null],\
-          ["rxjs", "npm:7.8.1"],\
+          ["rxjs", "npm:7.8.2"],\
           ["tslib", "npm:2.8.1"]\
         ],\
         "packagePeers": [\
@@ -465,7 +465,7 @@ const RAW_RUNTIME_STATE =
           ["@angular/core", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
           ["@types/rxjs", null],\
           ["@types/zone.js", null],\
-          ["rxjs", "npm:7.8.1"],\
+          ["rxjs", "npm:7.8.2"],\
           ["tslib", "npm:2.8.1"],\
           ["zone.js", "npm:0.15.0"]\
         ],\
@@ -497,7 +497,7 @@ const RAW_RUNTIME_STATE =
           ["@types/angular__core", null],\
           ["@types/angular__platform-browser", null],\
           ["@types/rxjs", null],\
-          ["rxjs", "npm:7.8.1"],\
+          ["rxjs", "npm:7.8.2"],\
           ["tslib", "npm:2.8.1"]\
         ],\
         "packagePeers": [\
@@ -598,7 +598,7 @@ const RAW_RUNTIME_STATE =
           ["@types/angular__core", null],\
           ["@types/angular__platform-browser", null],\
           ["@types/rxjs", null],\
-          ["rxjs", "npm:7.8.1"],\
+          ["rxjs", "npm:7.8.2"],\
           ["tslib", "npm:2.8.1"]\
         ],\
         "packagePeers": [\
@@ -10405,6 +10405,14 @@ const RAW_RUNTIME_STATE =
           ["tslib", "npm:2.8.1"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:7.8.2", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/rxjs-npm-7.8.2-80ecda9013-10c0.zip/node_modules/rxjs/",\
+        "packageDependencies": [\
+          ["rxjs", "npm:7.8.2"],\
+          ["tslib", "npm:2.8.1"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["safe-buffer", [\
@@ -11770,7 +11778,7 @@ const RAW_RUNTIME_STATE =
           ["karma-jasmine", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:5.1.0"],\
           ["karma-jasmine-html-reporter", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:2.1.0"],\
           ["pug-loader", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:2.4.0"],\
-          ["rxjs", "npm:7.8.1"],\
+          ["rxjs", "npm:7.8.2"],\
           ["tslib", "npm:2.8.1"],\
           ["typescript", "patch:typescript@npm%3A5.7.3#optional!builtin<compat/typescript>::version=5.7.3&hash=5786d5"],\
           ["zone.js", "npm:0.15.0"]\
