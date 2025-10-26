@@ -38,7 +38,7 @@ const RAW_RUNTIME_STATE =
           ["@angular/platform-browser", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
           ["@angular/platform-browser-dynamic", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
           ["@angular/router", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
-          ["@types/jasmine", "npm:5.1.7"],\
+          ["@types/jasmine", "npm:5.1.12"],\
           ["@types/node", "npm:20.17.25"],\
           ["@wizishop/ng-wizi-bulma", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:15.0.3"],\
           ["apply-loader", "npm:2.0.0"],\
@@ -3832,10 +3832,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@types/jasmine", [\
-      ["npm:5.1.7", {\
-        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@types-jasmine-npm-5.1.7-3cc41a940b-10c0.zip/node_modules/@types/jasmine/",\
+      ["npm:5.1.12", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@types-jasmine-npm-5.1.12-63bb56c3aa-10c0.zip/node_modules/@types/jasmine/",\
         "packageDependencies": [\
-          ["@types/jasmine", "npm:5.1.7"]\
+          ["@types/jasmine", "npm:5.1.12"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -11445,7 +11445,7 @@ const RAW_RUNTIME_STATE =
           ["@angular/platform-browser", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
           ["@angular/platform-browser-dynamic", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
           ["@angular/router", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
-          ["@types/jasmine", "npm:5.1.7"],\
+          ["@types/jasmine", "npm:5.1.12"],\
           ["@types/node", "npm:20.17.25"],\
           ["@wizishop/ng-wizi-bulma", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:15.0.3"],\
           ["apply-loader", "npm:2.0.0"],\
