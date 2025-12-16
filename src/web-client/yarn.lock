@@ -237,15 +237,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/common@npm:19.2.16":
-  version: 19.2.16
-  resolution: "@angular/common@npm:19.2.16"
+"@angular/common@npm:19.2.17":
+  version: 19.2.17
+  resolution: "@angular/common@npm:19.2.17"
   dependencies:
     tslib: "npm:^2.3.0"
   peerDependencies:
-    "@angular/core": 19.2.16
+    "@angular/core": 19.2.17
     rxjs: ^6.5.3 || ^7.4.0
-  checksum: 10c0/c6dd3f30dc794f69312bac111da9e78a254475047c2b98c08f498b1f70c522e1754a06e6c2f0b6228a59a3878246995f0c3b4c89fd352f4a481f12920a7e9f91
+  checksum: 10c0/c6ac6b7991e68f40073c7c9a27b97ac622949eb78cdcee8c02fcc56d36438d73f9fac109a440036bdf82ef6372aba7847db74808e43ec4d907dc338ce07bcd41
   languageName: node
   linkType: hard
 
@@ -9233,7 +9233,7 @@ __metadata:
     "@angular-devkit/build-angular": "npm:17.3.17"
     "@angular/animations": "npm:17.3.12"
     "@angular/cli": "npm:17.3.17"
-    "@angular/common": "npm:19.2.16"
+    "@angular/common": "npm:19.2.17"
     "@angular/compiler": "npm:17.3.12"
     "@angular/compiler-cli": "npm:17.3.12"
     "@angular/core": "npm:17.3.12"
@@ -9257,7 +9257,7 @@ __metadata:
     rxjs: "npm:7.8.2"
     tslib: "npm:2.8.1"
     typescript: "npm:5.9.3"
-    zone.js: "npm:~0.15.0"
+    zone.js: "npm:~0.16.0"
   languageName: unknown
   linkType: soft
 
@@ -9640,9 +9640,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"zone.js@npm:~0.15.0":
-  version: 0.15.1
-  resolution: "zone.js@npm:0.15.1"
-  checksum: 10c0/4eca000f90dbea1c34f62e88ce56910dace8cdecbe14747b214f2af37aa511264c7bd50faf3e9b00612e95dc4567da156a9690fef1983bfcf74604a630d190ef
+"zone.js@npm:~0.16.0":
+  version: 0.16.0
+  resolution: "zone.js@npm:0.16.0"
+  checksum: 10c0/89fa5873077c31e928ed98a4e535dd661a2c860fba580dcb6dc4641295ae6bc831712dfc4d4de67ac7be1d32605bb12913ed9e87784421e47ba453613016577b
   languageName: node
   linkType: hard
