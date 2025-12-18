@@ -2579,12 +2579,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:20.19.26":
-  version: 20.19.26
-  resolution: "@types/node@npm:20.19.26"
+"@types/node@npm:20.19.27":
+  version: 20.19.27
+  resolution: "@types/node@npm:20.19.27"
   dependencies:
     undici-types: "npm:~6.21.0"
-  checksum: 10c0/68e7d92dd2b7bddff9dffabb9c740e655906ceac428dcf070915cdcae720579e4d72261c55ed7eccbfa907a75cbb1ff3a9148ea49878a07a72d5dd6c9e06d9d7
+  checksum: 10c0/7599c24d80465c1aa6e29b53581fc20ad8862ff33e6eef31d05c1c706868476ee57319c89b802ea972dd4d64ce86d18020aa5344f851fb59b730ea509a63300f
   languageName: node
   linkType: hard
 
@@ -5699,10 +5699,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jasmine-core@npm:5.12.1":
-  version: 5.12.1
-  resolution: "jasmine-core@npm:5.12.1"
-  checksum: 10c0/35d83a91176e68960b4aa62d9a18bbeabed09cec42a138a70125a1952c0df6849d721d7e032101a3bd2ef17f1244fac166aaca8353cac7aa221831e005b84760
+"jasmine-core@npm:5.13.0":
+  version: 5.13.0
+  resolution: "jasmine-core@npm:5.13.0"
+  checksum: 10c0/3bbf1dbbde8017f41872a27f22bafd164fe4fcf834347af23d7d5a63e7e35c72c79e1596e6b384dd2906e885518419e13a6c7535ffabf8256b624110d664599d
   languageName: node
   linkType: hard
 
@@ -9242,12 +9242,12 @@ __metadata:
     "@angular/platform-browser-dynamic": "npm:17.3.12"
     "@angular/router": "npm:17.3.12"
     "@types/jasmine": "npm:5.1.13"
-    "@types/node": "npm:20.19.26"
+    "@types/node": "npm:20.19.27"
     "@wizishop/ng-wizi-bulma": "npm:15.0.3"
     apply-loader: "npm:2.0.0"
     bulma: "npm:0.9.4"
     bulma-extensions: "npm:6.2.7"
-    jasmine-core: "npm:5.12.1"
+    jasmine-core: "npm:5.13.0"
     karma: "npm:6.4.4"
     karma-chrome-launcher: "npm:3.2.0"
     karma-coverage: "npm:2.2.1"
