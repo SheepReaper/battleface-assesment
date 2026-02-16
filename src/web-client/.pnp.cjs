@@ -50,7 +50,7 @@ const RAW_RUNTIME_STATE =
           ["karma-chrome-launcher", "npm:3.2.0"],\
           ["karma-coverage", "npm:2.2.1"],\
           ["karma-jasmine", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:5.1.0"],\
-          ["karma-jasmine-html-reporter", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:2.1.0"],\
+          ["karma-jasmine-html-reporter", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:2.2.0"],\
           ["pug-loader", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:2.4.0"],\
           ["rxjs", "npm:7.8.2"],\
           ["tslib", "npm:2.8.1"],\
@@ -7782,15 +7782,15 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["karma-jasmine-html-reporter", [\
-      ["npm:2.1.0", {\
-        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/karma-jasmine-html-reporter-npm-2.1.0-7fd65aeb10-10c0.zip/node_modules/karma-jasmine-html-reporter/",\
+      ["npm:2.2.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/karma-jasmine-html-reporter-npm-2.2.0-a22b174334-10c0.zip/node_modules/karma-jasmine-html-reporter/",\
         "packageDependencies": [\
-          ["karma-jasmine-html-reporter", "npm:2.1.0"]\
+          ["karma-jasmine-html-reporter", "npm:2.2.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:2.1.0", {\
-        "packageLocation": "./.yarn/__virtual__/karma-jasmine-html-reporter-virtual-77bbfa368e/9/runner/cache/others/berry/cache/karma-jasmine-html-reporter-npm-2.1.0-7fd65aeb10-10c0.zip/node_modules/karma-jasmine-html-reporter/",\
+      ["virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:2.2.0", {\
+        "packageLocation": "./.yarn/__virtual__/karma-jasmine-html-reporter-virtual-5ba35b861a/9/runner/cache/others/berry/cache/karma-jasmine-html-reporter-npm-2.2.0-a22b174334-10c0.zip/node_modules/karma-jasmine-html-reporter/",\
         "packageDependencies": [\
           ["@types/jasmine-core", null],\
           ["@types/karma", null],\
@@ -7798,7 +7798,7 @@ const RAW_RUNTIME_STATE =
           ["jasmine-core", "npm:5.13.0"],\
           ["karma", "npm:6.4.4"],\
           ["karma-jasmine", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:5.1.0"],\
-          ["karma-jasmine-html-reporter", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:2.1.0"]\
+          ["karma-jasmine-html-reporter", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:2.2.0"]\
         ],\
         "packagePeers": [\
           "@types/jasmine-core",\
@@ -11457,7 +11457,7 @@ const RAW_RUNTIME_STATE =
           ["karma-chrome-launcher", "npm:3.2.0"],\
           ["karma-coverage", "npm:2.2.1"],\
           ["karma-jasmine", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:5.1.0"],\
-          ["karma-jasmine-html-reporter", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:2.1.0"],\
+          ["karma-jasmine-html-reporter", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:2.2.0"],\
           ["pug-loader", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:2.4.0"],\
           ["rxjs", "npm:7.8.2"],\
           ["tslib", "npm:2.8.1"],\
