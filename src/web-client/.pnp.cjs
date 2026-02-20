@@ -41,7 +41,7 @@ const RAW_RUNTIME_STATE =
           ["@angular/router", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
           ["@types/jasmine", "npm:5.1.15"],\
           ["@types/node", "npm:20.19.33"],\
-          ["@wizishop/ng-wizi-bulma", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:15.0.3"],\
+          ["@wizishop/ng-wizi-bulma", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:18.0.0"],\
           ["apply-loader", "npm:2.0.0"],\
           ["bulma", "npm:0.9.4"],\
           ["bulma-extensions", "npm:6.2.7"],\
@@ -317,10 +317,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:41d779d604f4ecd7bbc507d0cb0220ed14286af10f15cf347664f95ddae608438a534f6bdbec8cce027882ab91079f4a7c766d839d7507781c226e0492ff1bf8#npm:15.2.9", {\
-        "packageLocation": "./.yarn/__virtual__/@angular-cdk-virtual-29b56e51e8/9/runner/cache/others/berry/cache/@angular-cdk-npm-15.2.9-2e6c4eb191-10c0.zip/node_modules/@angular/cdk/",\
+      ["virtual:18ee5f06c0601b6dd666f274ac5ed5f4790750ccbe15e8bd8b552df21460f2afc9cae0625fa53cf402b08f1fe51a807238bb212c7e44ab66a4e66ee026d8d2b5#npm:15.2.9", {\
+        "packageLocation": "./.yarn/__virtual__/@angular-cdk-virtual-bbb430b944/9/runner/cache/others/berry/cache/@angular-cdk-npm-15.2.9-2e6c4eb191-10c0.zip/node_modules/@angular/cdk/",\
         "packageDependencies": [\
-          ["@angular/cdk", "virtual:41d779d604f4ecd7bbc507d0cb0220ed14286af10f15cf347664f95ddae608438a534f6bdbec8cce027882ab91079f4a7c766d839d7507781c226e0492ff1bf8#npm:15.2.9"],\
+          ["@angular/cdk", "virtual:18ee5f06c0601b6dd666f274ac5ed5f4790750ccbe15e8bd8b552df21460f2afc9cae0625fa53cf402b08f1fe51a807238bb212c7e44ab66a4e66ee026d8d2b5#npm:15.2.9"],\
           ["@angular/common", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:19.2.18"],\
           ["@angular/core", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
           ["@types/angular__common", null],\
@@ -4162,18 +4162,18 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@wizishop/ng-wizi-bulma", [\
-      ["npm:15.0.3", {\
-        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@wizishop-ng-wizi-bulma-npm-15.0.3-768385a269-10c0.zip/node_modules/@wizishop/ng-wizi-bulma/",\
+      ["npm:18.0.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@wizishop-ng-wizi-bulma-npm-18.0.0-a3486a1849-10c0.zip/node_modules/@wizishop/ng-wizi-bulma/",\
         "packageDependencies": [\
-          ["@wizishop/ng-wizi-bulma", "npm:15.0.3"]\
+          ["@wizishop/ng-wizi-bulma", "npm:18.0.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:15.0.3", {\
-        "packageLocation": "./.yarn/__virtual__/@wizishop-ng-wizi-bulma-virtual-41d779d604/9/runner/cache/others/berry/cache/@wizishop-ng-wizi-bulma-npm-15.0.3-768385a269-10c0.zip/node_modules/@wizishop/ng-wizi-bulma/",\
+      ["virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:18.0.0", {\
+        "packageLocation": "./.yarn/__virtual__/@wizishop-ng-wizi-bulma-virtual-18ee5f06c0/9/runner/cache/others/berry/cache/@wizishop-ng-wizi-bulma-npm-18.0.0-a3486a1849-10c0.zip/node_modules/@wizishop/ng-wizi-bulma/",\
         "packageDependencies": [\
           ["@angular/animations", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
-          ["@angular/cdk", "virtual:41d779d604f4ecd7bbc507d0cb0220ed14286af10f15cf347664f95ddae608438a534f6bdbec8cce027882ab91079f4a7c766d839d7507781c226e0492ff1bf8#npm:15.2.9"],\
+          ["@angular/cdk", "virtual:18ee5f06c0601b6dd666f274ac5ed5f4790750ccbe15e8bd8b552df21460f2afc9cae0625fa53cf402b08f1fe51a807238bb212c7e44ab66a4e66ee026d8d2b5#npm:15.2.9"],\
           ["@angular/common", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:19.2.18"],\
           ["@angular/core", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
           ["@types/angular__animations", null],\
@@ -4182,13 +4182,11 @@ const RAW_RUNTIME_STATE =
           ["@types/angular__core", null],\
           ["@types/bulma", null],\
           ["@types/bulma-extensions", null],\
-          ["@types/typescript", null],\
-          ["@wizishop/ng-wizi-bulma", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:15.0.3"],\
+          ["@wizishop/ng-wizi-bulma", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:18.0.0"],\
           ["bulma", "npm:0.9.4"],\
           ["bulma-extensions", "npm:6.2.7"],\
           ["rxjs", "npm:7.8.1"],\
-          ["tslib", "npm:2.8.1"],\
-          ["typescript", "patch:typescript@npm%3A5.9.3#optional!builtin<compat/typescript>::version=5.9.3&hash=5786d5"]\
+          ["tslib", "npm:2.8.1"]\
         ],\
         "packagePeers": [\
           "@angular/animations",\
@@ -4200,10 +4198,8 @@ const RAW_RUNTIME_STATE =
           "@types/angular__core",\
           "@types/bulma-extensions",\
           "@types/bulma",\
-          "@types/typescript",\
           "bulma-extensions",\
-          "bulma",\
-          "typescript"\
+          "bulma"\
         ],\
         "linkType": "HARD"\
       }]\
@@ -11448,7 +11444,7 @@ const RAW_RUNTIME_STATE =
           ["@angular/router", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:17.3.12"],\
           ["@types/jasmine", "npm:5.1.15"],\
           ["@types/node", "npm:20.19.33"],\
-          ["@wizishop/ng-wizi-bulma", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:15.0.3"],\
+          ["@wizishop/ng-wizi-bulma", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:18.0.0"],\
           ["apply-loader", "npm:2.0.0"],\
           ["bulma", "npm:0.9.4"],\
           ["bulma-extensions", "npm:6.2.7"],\

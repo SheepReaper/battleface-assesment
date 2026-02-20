@@ -2817,20 +2817,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@wizishop/ng-wizi-bulma@npm:15.0.3":
-  version: 15.0.3
-  resolution: "@wizishop/ng-wizi-bulma@npm:15.0.3"
+"@wizishop/ng-wizi-bulma@npm:18.0.0":
+  version: 18.0.0
+  resolution: "@wizishop/ng-wizi-bulma@npm:18.0.0"
   dependencies:
     tslib: "npm:^2.3.1"
   peerDependencies:
-    "@angular/animations": ^15.0.2
-    "@angular/cdk": ^15.0.1
-    "@angular/common": ^15.0.2
-    "@angular/core": ^15.0.2
+    "@angular/animations": ">=18.0.0"
+    "@angular/cdk": ">=18.0.0"
+    "@angular/common": ">=18.0.0"
+    "@angular/core": ">=18.0.0"
     bulma: ^0.9.4
     bulma-extensions: ^6.2.7
-    typescript: ^4.8.4
-  checksum: 10c0/2a017a8deb59564ead9aee18cdc9635a6560376d37eacb9514f0a6b1a8fdd8e08f000b9a98e13112f9cb7d62e7a3122ac307e0105150330d65ed26b76b3f731c
+  checksum: 10c0/a83fb0c754f050eda6499a08823dadd8bff25a68f1fceeb6a180deefb2ee8e8a899b1efce77496879a02acf1d63abe756ccf32c35e15a1683b798023185b4d1a
   languageName: node
   linkType: hard
 
@@ -9243,7 +9242,7 @@ __metadata:
     "@angular/router": "npm:17.3.12"
     "@types/jasmine": "npm:5.1.15"
     "@types/node": "npm:20.19.33"
-    "@wizishop/ng-wizi-bulma": "npm:15.0.3"
+    "@wizishop/ng-wizi-bulma": "npm:18.0.0"
     apply-loader: "npm:2.0.0"
     bulma: "npm:0.9.4"
     bulma-extensions: "npm:6.2.7"
