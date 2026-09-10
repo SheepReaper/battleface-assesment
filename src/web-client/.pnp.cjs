@@ -56,7 +56,7 @@ const RAW_RUNTIME_STATE =
           ["tslib", "npm:2.8.1"],\
           ["typescript", "patch:typescript@npm%3A5.9.3#optional!builtin<compat/typescript>::version=5.9.3&hash=5786d5"],\
           ["web-client", "workspace:."],\
-          ["zone.js", "npm:0.16.2"]\
+          ["zone.js", "npm:0.16.3"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -468,7 +468,7 @@ const RAW_RUNTIME_STATE =
           ["@types/zone.js", null],\
           ["rxjs", "npm:7.8.2"],\
           ["tslib", "npm:2.8.1"],\
-          ["zone.js", "npm:0.16.2"]\
+          ["zone.js", "npm:0.16.3"]\
         ],\
         "packagePeers": [\
           "@types/rxjs",\
@@ -11463,7 +11463,7 @@ const RAW_RUNTIME_STATE =
           ["tslib", "npm:2.8.1"],\
           ["typescript", "patch:typescript@npm%3A5.9.3#optional!builtin<compat/typescript>::version=5.9.3&hash=5786d5"],\
           ["web-client", "workspace:."],\
-          ["zone.js", "npm:0.16.2"]\
+          ["zone.js", "npm:0.16.3"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -11925,10 +11925,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["zone.js", [\
-      ["npm:0.16.2", {\
-        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/zone.js-npm-0.16.2-2350429164-10c0.zip/node_modules/zone.js/",\
+      ["npm:0.16.3", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/zone.js-npm-0.16.3-a59313ca0b-10c0.zip/node_modules/zone.js/",\
         "packageDependencies": [\
-          ["zone.js", "npm:0.16.2"]\
+          ["zone.js", "npm:0.16.3"]\
         ],\
         "linkType": "HARD"\
       }]\
