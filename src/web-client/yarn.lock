@@ -2579,12 +2579,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:20.19.43":
-  version: 20.19.43
-  resolution: "@types/node@npm:20.19.43"
+"@types/node@npm:22.20.2":
+  version: 22.20.2
+  resolution: "@types/node@npm:22.20.2"
   dependencies:
     undici-types: "npm:~6.21.0"
-  checksum: 10c0/9bcec3b5295bdd77ff0b44a528a69f7e22028c347507ba2c69be47ec84e30299f45043b222e9c86c510e138c9c53b2419dd5cd34920602a4a5a381c288075318
+  checksum: 10c0/1940dbec0c65a454c3651a282970fbfc998e0f0a5492bf5e067d8d9185f0c47cacc0d028153c481c4e6ecd19381ab03bf3f2efadb0cfacd702e74b6d5e4b212e
   languageName: node
   linkType: hard
 
@@ -9242,7 +9242,7 @@ __metadata:
     "@angular/platform-browser-dynamic": "npm:17.3.12"
     "@angular/router": "npm:17.3.12"
     "@types/jasmine": "npm:5.1.15"
-    "@types/node": "npm:20.19.43"
+    "@types/node": "npm:22.20.2"
     "@wizishop/ng-wizi-bulma": "npm:15.0.3"
     apply-loader: "npm:2.0.0"
     bulma: "npm:0.9.4"
